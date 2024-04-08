@@ -1,0 +1,10 @@
+{
+    "pack": {
+      "pack_format": 16,
+      "description": {
+        "text":"随机掉落",
+        "color":"red",
+        "bold":true
+      }
+    }
+  }
