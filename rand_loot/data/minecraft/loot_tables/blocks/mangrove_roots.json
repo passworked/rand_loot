@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_button"
+                    "name": "minecraft:red_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_button"
+    "random_sequence": "minecraft:blocks/red_glazed_terracotta"
 }

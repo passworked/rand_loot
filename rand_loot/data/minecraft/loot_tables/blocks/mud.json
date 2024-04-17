@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:white_terracotta"
+                    "name": "minecraft:dirt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/white_terracotta"
+    "random_sequence": "minecraft:blocks/dirt_path"
 }

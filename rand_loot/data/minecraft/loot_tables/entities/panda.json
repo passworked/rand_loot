@@ -1,4 +1,4 @@
 {
     "type": "minecraft:entity",
-    "random_sequence": "minecraft:entities/wolf"
+    "random_sequence": "minecraft:entities/piglin_brute"
 }

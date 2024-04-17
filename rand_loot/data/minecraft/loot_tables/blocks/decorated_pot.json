@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mud"
+                    "name": "minecraft:oak_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mud"
+    "random_sequence": "minecraft:blocks/oak_button"
 }

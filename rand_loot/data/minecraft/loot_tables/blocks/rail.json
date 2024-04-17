@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_concrete_powder"
+                    "conditions": [
+                        {
+                            "block": "minecraft:oak_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:oak_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_concrete_powder"
+    "random_sequence": "minecraft:blocks/oak_door"
 }

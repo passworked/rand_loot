@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_exposed_copper"
+                    "name": "minecraft:spruce_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_exposed_copper"
+    "random_sequence": "minecraft:blocks/spruce_planks"
 }

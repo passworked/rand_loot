@@ -3,14 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lime_candle"
+                    "name": "minecraft:prismarine_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lime_candle_cake"
+    "random_sequence": "minecraft:blocks/prismarine_wall"
 }

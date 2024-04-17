@@ -8,6 +8,20 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "flags": {
+                                            "is_on_fire": true
+                                        }
+                                    }
+                                }
+                            ],
+                            "function": "minecraft:furnace_smelt"
+                        },
+                        {
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
@@ -25,28 +39,32 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:string"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                }
-            ],
-            "entries": [
+                    "name": "minecraft:cod",
+                    "weight": 3
+                },
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "flags": {
+                                            "is_on_fire": true
+                                        }
+                                    }
+                                }
+                            ],
+                            "function": "minecraft:furnace_smelt"
+                        },
+                        {
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": -1.0
+                                "max": 2.0,
+                                "min": 0.0
                             },
                             "function": "minecraft:set_count"
                         },
@@ -59,11 +77,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:spider_eye"
+                    "name": "minecraft:salmon"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/cave_spider"
+    "random_sequence": "minecraft:entities/polar_bear"
 }

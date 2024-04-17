@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brick_stairs"
+                    "name": "minecraft:acacia_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brick_stairs"
+    "random_sequence": "minecraft:blocks/acacia_fence"
 }

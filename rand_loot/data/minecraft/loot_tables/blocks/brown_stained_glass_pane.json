@@ -13,18 +13,18 @@
                     "type": "minecraft:item",
                     "conditions": [
                         {
-                            "block": "minecraft:oak_door",
+                            "block": "minecraft:tnt",
                             "condition": "minecraft:block_state_property",
                             "properties": {
-                                "half": "lower"
+                                "unstable": "false"
                             }
                         }
                     ],
-                    "name": "minecraft:oak_door"
+                    "name": "minecraft:tnt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_door"
+    "random_sequence": "minecraft:blocks/tnt"
 }

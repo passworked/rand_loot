@@ -3,33 +3,28 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
+                    "conditions": [
                         {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:crimson_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
-                                    }
-                                }
-                            ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
+                            "block": "minecraft:peony",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
                         }
                     ],
-                    "name": "minecraft:crimson_slab"
+                    "name": "minecraft:peony"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_slab"
+    "random_sequence": "minecraft:blocks/peony"
 }

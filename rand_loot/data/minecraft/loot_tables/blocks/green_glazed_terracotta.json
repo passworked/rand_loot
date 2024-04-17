@@ -3,36 +3,32 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        },
-                        {
                             "function": "minecraft:copy_nbt",
                             "ops": [
                                 {
                                     "op": "replace",
-                                    "source": "Patterns",
-                                    "target": "BlockEntityTag.Patterns"
+                                    "source": "SkullOwner",
+                                    "target": "SkullOwner"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "note_block_sound",
+                                    "target": "BlockEntityTag.note_block_sound"
                                 }
                             ],
                             "source": "block_entity"
                         }
                     ],
-                    "name": "minecraft:magenta_banner"
+                    "name": "minecraft:player_head"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/magenta_banner"
+    "random_sequence": "minecraft:blocks/player_head"
 }

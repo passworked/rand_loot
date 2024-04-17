@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:activator_rail"
+                    "name": "minecraft:detector_rail"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/activator_rail"
+    "random_sequence": "minecraft:blocks/detector_rail"
 }

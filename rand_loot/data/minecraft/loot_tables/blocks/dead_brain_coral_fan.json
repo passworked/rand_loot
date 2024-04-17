@@ -3,29 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
-                            }
-                        ]
-                    }
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bubble_coral_fan"
+                    "functions": [
+                        {
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:polished_deepslate_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ],
+                    "name": "minecraft:polished_deepslate_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bubble_coral_fan"
+    "random_sequence": "minecraft:blocks/polished_deepslate_slab"
 }

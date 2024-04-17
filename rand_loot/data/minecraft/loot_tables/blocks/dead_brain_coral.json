@@ -8,28 +8,46 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:smooth_quartz_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
-                                    }
-                                }
-                            ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
                         },
                         {
-                            "function": "minecraft:explosion_decay"
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Lock",
+                                    "target": "BlockEntityTag.Lock"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTable",
+                                    "target": "BlockEntityTag.LootTable"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTableSeed",
+                                    "target": "BlockEntityTag.LootTableSeed"
+                                }
+                            ],
+                            "source": "block_entity"
+                        },
+                        {
+                            "type": "minecraft:shulker_box",
+                            "entries": [
+                                {
+                                    "type": "minecraft:dynamic",
+                                    "name": "minecraft:contents"
+                                }
+                            ],
+                            "function": "minecraft:set_contents"
                         }
                     ],
-                    "name": "minecraft:smooth_quartz_slab"
+                    "name": "minecraft:orange_shulker_box"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_quartz_slab"
+    "random_sequence": "minecraft:blocks/orange_shulker_box"
 }

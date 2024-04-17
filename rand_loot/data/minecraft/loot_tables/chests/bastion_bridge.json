@@ -6,11 +6,6 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:ender_pearl",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
                     "functions": [
                         {
                             "add": false,
@@ -48,14 +43,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
+                                "max": 7.0,
+                                "min": 2.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
                     "name": "minecraft:gold_ingot",
-                    "weight": 5
+                    "weight": 15
                 },
                 {
                     "type": "minecraft:item",
@@ -64,14 +59,46 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 9.0,
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:bamboo",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:emerald",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 6.0,
                                 "min": 4.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:redstone",
-                    "weight": 5
+                    "name": "minecraft:bone",
+                    "weight": 20
                 },
                 {
                     "type": "minecraft:item",
@@ -80,68 +107,19 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
+                                "max": 7.0,
+                                "min": 3.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:bread",
-                    "weight": 15
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 16
                 },
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:apple",
-                    "weight": 15
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_pickaxe",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_sword",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_chestplate",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_helmet",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_leggings",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_boots",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_apple"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:saddle"
+                    "name": "minecraft:saddle",
+                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
@@ -157,10 +135,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:music_disc_otherside"
-                },
-                {
-                    "type": "minecraft:item",
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
@@ -173,7 +147,7 @@
             ],
             "rolls": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 6.0,
                 "min": 2.0
             }
         },
@@ -182,15 +156,22 @@
             "entries": [
                 {
                     "type": "minecraft:empty",
-                    "weight": 9
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:eye_armor_trim_smithing_template"
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:wild_armor_trim_smithing_template"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/stronghold_corridor"
+    "random_sequence": "minecraft:chests/jungle_temple"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_sapling"
+                    "name": "minecraft:packed_mud"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_sapling"
+    "random_sequence": "minecraft:blocks/packed_mud"
 }

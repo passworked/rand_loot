@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_carpet"
+                    "name": "minecraft:activator_rail"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_carpet"
+    "random_sequence": "minecraft:blocks/activator_rail"
 }

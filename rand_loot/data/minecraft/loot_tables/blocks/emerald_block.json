@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_sign"
+                    "name": "minecraft:black_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_sign"
+    "random_sequence": "minecraft:blocks/black_glazed_terracotta"
 }

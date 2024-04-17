@@ -11,20 +11,28 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
+                    "functions": [
                         {
-                            "block": "minecraft:tnt",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "unstable": "false"
-                            }
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Patterns",
+                                    "target": "BlockEntityTag.Patterns"
+                                }
+                            ],
+                            "source": "block_entity"
                         }
                     ],
-                    "name": "minecraft:tnt"
+                    "name": "minecraft:green_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/tnt"
+    "random_sequence": "minecraft:blocks/green_banner"
 }

@@ -8,56 +8,46 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:gray_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "2"
-                                    }
-                                }
-                            ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
                         },
                         {
-                            "add": false,
-                            "conditions": [
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
                                 {
-                                    "block": "minecraft:gray_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "3"
-                                    }
+                                    "op": "replace",
+                                    "source": "Lock",
+                                    "target": "BlockEntityTag.Lock"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTable",
+                                    "target": "BlockEntityTag.LootTable"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTableSeed",
+                                    "target": "BlockEntityTag.LootTableSeed"
                                 }
                             ],
-                            "count": 3.0,
-                            "function": "minecraft:set_count"
+                            "source": "block_entity"
                         },
                         {
-                            "add": false,
-                            "conditions": [
+                            "type": "minecraft:shulker_box",
+                            "entries": [
                                 {
-                                    "block": "minecraft:gray_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "4"
-                                    }
+                                    "type": "minecraft:dynamic",
+                                    "name": "minecraft:contents"
                                 }
                             ],
-                            "count": 4.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
+                            "function": "minecraft:set_contents"
                         }
                     ],
-                    "name": "minecraft:gray_candle"
+                    "name": "minecraft:brown_shulker_box"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/gray_candle"
+    "random_sequence": "minecraft:blocks/brown_shulker_box"
 }

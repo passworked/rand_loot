@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_fence_gate"
+                    "name": "minecraft:orange_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_fence_gate"
+    "random_sequence": "minecraft:blocks/orange_concrete"
 }

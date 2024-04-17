@@ -22,19 +22,13 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:gold_nugget",
-                    "weight": 10
+                    "name": "minecraft:stone_axe",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
@@ -66,20 +60,6 @@
         {
             "bonus_rolls": 0.0,
             "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_apple"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:book",
-                    "weight": 5
-                },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:leather_chestplate"
@@ -115,11 +95,11 @@
                         }
                     ],
                     "name": "minecraft:map",
-                    "weight": 10
+                    "weight": 5
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/underwater_ruin_big"
+    "random_sequence": "minecraft:chests/underwater_ruin_small"
 }

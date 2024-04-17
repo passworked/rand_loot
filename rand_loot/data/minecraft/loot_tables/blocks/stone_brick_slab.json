@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_blue_glazed_terracotta"
+                    "name": "minecraft:bamboo_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_blue_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/bamboo_pressure_plate"
 }

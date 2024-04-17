@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smooth_red_sandstone_stairs"
+                    "name": "minecraft:andesite"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_red_sandstone_stairs"
+    "random_sequence": "minecraft:blocks/andesite"
 }

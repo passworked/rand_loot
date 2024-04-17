@@ -5,21 +5,32 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "block": "minecraft:cave_vines",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                        "berries": "true"
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glow_berries"
+                    "name": "minecraft:flower_pot"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_rose"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cave_vines"
+    "random_sequence": "minecraft:blocks/potted_wither_rose"
 }

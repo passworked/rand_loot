@@ -3,24 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "items": [
-                            "minecraft:shears"
-                        ]
-                    }
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_sprouts"
+                    "functions": [
+                        {
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:brick_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ],
+                    "name": "minecraft:brick_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_sprouts"
+    "random_sequence": "minecraft:blocks/brick_slab"
 }

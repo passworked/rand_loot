@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_concrete"
+                    "name": "minecraft:cracked_deepslate_tiles"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_gray_concrete"
+    "random_sequence": "minecraft:blocks/cracked_deepslate_tiles"
 }

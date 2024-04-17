@@ -11,7 +11,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:exposed_cut_copper_slab",
+                                    "block": "minecraft:polished_blackstone_slab",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "type": "double"
@@ -25,11 +25,11 @@
                             "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:exposed_cut_copper_slab"
+                    "name": "minecraft:polished_blackstone_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/exposed_cut_copper_slab"
+    "random_sequence": "minecraft:blocks/polished_blackstone_slab"
 }

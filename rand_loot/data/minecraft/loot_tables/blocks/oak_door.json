@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smooth_quartz_stairs"
+                    "name": "minecraft:spruce_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_quartz_stairs"
+    "random_sequence": "minecraft:blocks/spruce_log"
 }

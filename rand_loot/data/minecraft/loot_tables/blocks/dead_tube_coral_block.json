@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:scaffolding"
+                    "name": "minecraft:repeater"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/scaffolding"
+    "random_sequence": "minecraft:blocks/repeater"
 }

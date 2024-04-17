@@ -1,4 +1,4 @@
 {
     "type": "minecraft:entity",
-    "random_sequence": "minecraft:entities/wandering_trader"
+    "random_sequence": "minecraft:entities/ocelot"
 }

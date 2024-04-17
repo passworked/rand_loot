@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:fletching_table"
+                    "name": "minecraft:flowering_azalea"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/fletching_table"
+    "random_sequence": "minecraft:blocks/flowering_azalea"
 }

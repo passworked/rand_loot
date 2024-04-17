@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:piston"
+                    "name": "minecraft:pink_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/piston"
+    "random_sequence": "minecraft:blocks/pink_glazed_terracotta"
 }

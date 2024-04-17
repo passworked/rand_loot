@@ -5,17 +5,22 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": [
+                            "minecraft:shears"
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone_brick_stairs"
+                    "name": "minecraft:nether_sprouts"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stone_brick_stairs"
+    "random_sequence": "minecraft:blocks/nether_sprouts"
 }

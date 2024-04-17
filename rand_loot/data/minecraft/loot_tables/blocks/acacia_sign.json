@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:prismarine_bricks"
+                    "name": "minecraft:mossy_cobblestone_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/prismarine_bricks"
+    "random_sequence": "minecraft:blocks/mossy_cobblestone_wall"
 }

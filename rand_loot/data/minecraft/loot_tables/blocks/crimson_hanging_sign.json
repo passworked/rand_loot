@@ -3,19 +3,43 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:blackstone_wall"
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:horn_coral_block"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "name": "minecraft:dead_horn_coral_block"
+                        }
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blackstone_wall"
+    "random_sequence": "minecraft:blocks/horn_coral_block"
 }

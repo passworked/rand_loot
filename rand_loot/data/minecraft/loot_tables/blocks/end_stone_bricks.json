@@ -3,25 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:polished_granite_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:barrel"
+                    "name": "minecraft:polished_granite_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/barrel"
+    "random_sequence": "minecraft:blocks/polished_granite_slab"
 }

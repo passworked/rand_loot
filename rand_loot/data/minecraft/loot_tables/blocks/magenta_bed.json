@@ -5,17 +5,22 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": [
+                            "minecraft:shears"
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_planks"
+                    "name": "minecraft:small_dripleaf"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_planks"
+    "random_sequence": "minecraft:blocks/small_dripleaf"
 }

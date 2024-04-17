@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sponge"
+                    "name": "minecraft:piston"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sponge"
+    "random_sequence": "minecraft:blocks/piston"
 }

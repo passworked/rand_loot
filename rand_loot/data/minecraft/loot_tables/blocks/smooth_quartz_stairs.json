@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_brick_fence"
+                    "name": "minecraft:warped_roots"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_brick_fence"
+    "random_sequence": "minecraft:blocks/warped_roots"
 }

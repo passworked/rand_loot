@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:raw_gold_block"
+                    "name": "minecraft:lily_pad"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/raw_gold_block"
+    "random_sequence": "minecraft:blocks/lily_pad"
 }

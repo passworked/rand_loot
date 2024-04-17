@@ -6,151 +6,43 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 1.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:netherite_ingot",
+                    "name": "minecraft:lead",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
                     "weight": 15
                 },
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 1.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:ancient_debris",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
                     "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 1.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:netherite_scrap",
-                    "weight": 8
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:ancient_debris",
-                    "weight": 4
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "damage": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.8
-                            },
-                            "function": "minecraft:set_damage"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:diamond_sword",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "damage": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.8
-                            },
-                            "function": "minecraft:set_damage"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:diamond_chestplate",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "damage": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.8
-                            },
-                            "function": "minecraft:set_damage"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:diamond_helmet",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "damage": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.8
-                            },
-                            "function": "minecraft:set_damage"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:diamond_leggings",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "damage": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.8
-                            },
-                            "function": "minecraft:set_damage"
-                        },
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:diamond_boots",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_sword",
-                    "weight": 6
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 15
                 },
                 {
                     "type": "minecraft:item",
@@ -159,49 +51,20 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_helmet",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_leggings",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
-                            },
-                            "function": "minecraft:set_count"
+                            "function": "minecraft:enchant_randomly"
                         }
                     ],
-                    "name": "minecraft:diamond",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 1.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:enchanted_golden_apple",
-                    "weight": 2
+                    "name": "minecraft:book",
+                    "weight": 10
                 }
             ],
-            "rolls": 3.0
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+            }
         },
         {
             "bonus_rolls": 0.0,
@@ -213,13 +76,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 25.0,
-                                "min": 12.0
+                                "max": 4.0,
+                                "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:spectral_arrow"
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -228,13 +92,88 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:wheat",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bucket",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:redstone",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:coal",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
                                 "min": 2.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:gold_block"
+                    "name": "minecraft:melon_seeds",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -243,13 +182,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
+                                "max": 4.0,
                                 "min": 2.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:iron_block"
+                    "name": "minecraft:pumpkin_seeds",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -258,14 +198,25 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 9.0,
-                                "min": 3.0
+                                "max": 4.0,
+                                "min": 2.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:gold_ingot"
-                },
+                    "name": "minecraft:beetroot_seeds",
+                    "weight": 10
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
@@ -273,58 +224,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 9.0,
-                                "min": 3.0
+                                "max": 8.0,
+                                "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:iron_ingot"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 3.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:crying_obsidian"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 23.0,
-                                "min": 8.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:quartz"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 15.0,
-                                "min": 5.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:gilded_blackstone"
+                    "name": "minecraft:bone",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -334,44 +241,62 @@
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 8.0,
-                                "min": 3.0
+                                "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:magma_cream"
-                }
-            ],
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 3.0
-            }
-        },
-        {
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:empty",
-                    "weight": 11
+                    "name": "minecraft:gunpowder",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:snout_armor_trim_smithing_template"
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:string",
+                    "weight": 10
                 }
             ],
-            "rolls": 1.0
+            "rolls": 3.0
         },
         {
             "bonus_rolls": 0.0,
             "entries": [
                 {
+                    "type": "minecraft:empty"
+                },
+                {
                     "type": "minecraft:item",
-                    "name": "minecraft:netherite_upgrade_smithing_template"
+                    "name": "minecraft:vex_armor_trim_smithing_template"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/bastion_treasure"
+    "random_sequence": "minecraft:chests/woodland_mansion"
 }

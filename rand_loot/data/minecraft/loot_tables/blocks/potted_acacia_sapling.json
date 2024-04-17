@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_andesite_stairs"
+                    "name": "minecraft:amethyst_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_andesite_stairs"
+    "random_sequence": "minecraft:blocks/amethyst_block"
 }

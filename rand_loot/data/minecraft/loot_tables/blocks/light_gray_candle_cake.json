@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:terracotta"
+                    "name": "minecraft:dark_oak_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/terracotta"
+    "random_sequence": "minecraft:blocks/dark_oak_fence_gate"
 }

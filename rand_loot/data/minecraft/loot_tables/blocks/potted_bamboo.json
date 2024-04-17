@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_fence"
+                    "name": "minecraft:black_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_fence"
+    "random_sequence": "minecraft:blocks/black_concrete"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cut_copper"
+                    "name": "minecraft:lapis_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cut_copper"
+    "random_sequence": "minecraft:blocks/lapis_block"
 }

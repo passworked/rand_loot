@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_tulip"
+                    "name": "minecraft:big_dripleaf"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_tulip"
+    "random_sequence": "minecraft:blocks/big_dripleaf"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pink_concrete_powder"
+                    "name": "minecraft:light_gray_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_concrete_powder"
+    "random_sequence": "minecraft:blocks/light_gray_carpet"
 }

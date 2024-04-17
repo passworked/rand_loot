@@ -1,4 +1,4 @@
 {
     "type": "minecraft:entity",
-    "random_sequence": "minecraft:entities/pillager"
+    "random_sequence": "minecraft:entities/camel"
 }

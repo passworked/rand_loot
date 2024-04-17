@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_oxidized_cut_copper_stairs"
+                    "name": "minecraft:azure_bluet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_oxidized_cut_copper_stairs"
+    "random_sequence": "minecraft:blocks/azure_bluet"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_carpet"
+                    "name": "minecraft:stripped_acacia_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_gray_carpet"
+    "random_sequence": "minecraft:blocks/stripped_acacia_wood"
 }

@@ -5,17 +5,22 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": [
+                            "minecraft:shears"
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:big_dripleaf"
+                    "name": "minecraft:hanging_roots"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/big_dripleaf"
+    "random_sequence": "minecraft:blocks/hanging_roots"
 }

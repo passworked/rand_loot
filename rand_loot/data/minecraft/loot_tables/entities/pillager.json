@@ -9,19 +9,15 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 15.0,
-                                "min": 0.0
-                            },
+                            "count": 1.0,
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:snowball"
+                    "name": "minecraft:bamboo"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/snow_golem"
+    "random_sequence": "minecraft:entities/panda"
 }

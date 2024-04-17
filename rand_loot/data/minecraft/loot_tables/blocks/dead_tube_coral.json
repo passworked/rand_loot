@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo"
+                    "name": "minecraft:prismarine_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo"
+    "random_sequence": "minecraft:blocks/prismarine_stairs"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_hanging_sign"
+                    "name": "minecraft:magma_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_hanging_sign"
+    "random_sequence": "minecraft:blocks/magma_block"
 }

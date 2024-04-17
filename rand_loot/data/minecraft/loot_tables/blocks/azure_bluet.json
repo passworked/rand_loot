@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:ancient_debris"
+                    "name": "minecraft:iron_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/ancient_debris"
+    "random_sequence": "minecraft:blocks/iron_trapdoor"
 }

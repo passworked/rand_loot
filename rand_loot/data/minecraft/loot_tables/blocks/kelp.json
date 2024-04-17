@@ -5,29 +5,17 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "items": [
-                            "minecraft:shears"
-                        ]
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:seagrass"
+                    "name": "minecraft:polished_deepslate_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/tall_seagrass"
+    "random_sequence": "minecraft:blocks/polished_deepslate_stairs"
 }

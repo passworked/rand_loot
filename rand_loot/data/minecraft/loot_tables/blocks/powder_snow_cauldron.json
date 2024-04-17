@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_stairs"
+                    "name": "minecraft:note_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_stairs"
+    "random_sequence": "minecraft:blocks/note_block"
 }

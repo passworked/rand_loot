@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_wool"
+                    "name": "minecraft:crimson_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_wool"
+    "random_sequence": "minecraft:blocks/crimson_fence"
 }

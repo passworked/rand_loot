@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_concrete_powder"
+                    "name": "minecraft:brown_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/green_concrete_powder"
+    "random_sequence": "minecraft:blocks/brown_concrete"
 }

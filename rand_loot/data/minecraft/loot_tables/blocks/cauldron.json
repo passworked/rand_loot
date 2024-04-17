@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oxeye_daisy"
+                    "conditions": [
+                        {
+                            "block": "minecraft:bamboo_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bamboo_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oxeye_daisy"
+    "random_sequence": "minecraft:blocks/bamboo_door"
 }

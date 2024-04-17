@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:ladder"
+                    "name": "minecraft:dead_bubble_coral_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/ladder"
+    "random_sequence": "minecraft:blocks/dead_bubble_coral_block"
 }

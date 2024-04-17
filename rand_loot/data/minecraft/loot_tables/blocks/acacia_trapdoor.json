@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_tulip"
+                    "conditions": [
+                        {
+                            "block": "minecraft:blue_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:blue_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_tulip"
+    "random_sequence": "minecraft:blocks/blue_bed"
 }

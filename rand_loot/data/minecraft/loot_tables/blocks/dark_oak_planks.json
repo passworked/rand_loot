@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:black_carpet"
+                    "name": "minecraft:cut_red_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/black_carpet"
+    "random_sequence": "minecraft:blocks/cut_red_sandstone"
 }

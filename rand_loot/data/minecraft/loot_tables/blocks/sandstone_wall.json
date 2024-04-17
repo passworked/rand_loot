@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pumpkin"
+                    "name": "minecraft:dark_oak_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pumpkin"
+    "random_sequence": "minecraft:blocks/dark_oak_button"
 }

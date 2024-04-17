@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:warped_door",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:warped_door"
+                    "name": "minecraft:mangrove_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_door"
+    "random_sequence": "minecraft:blocks/mangrove_fence_gate"
 }

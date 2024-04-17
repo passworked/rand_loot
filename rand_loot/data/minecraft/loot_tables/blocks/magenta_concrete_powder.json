@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:note_block"
+                    "name": "minecraft:warped_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/note_block"
+    "random_sequence": "minecraft:blocks/warped_fence_gate"
 }

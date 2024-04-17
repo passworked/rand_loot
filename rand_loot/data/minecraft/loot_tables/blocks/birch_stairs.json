@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_button"
+                    "name": "minecraft:bamboo_mosaic"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_button"
+    "random_sequence": "minecraft:blocks/bamboo_mosaic"
 }

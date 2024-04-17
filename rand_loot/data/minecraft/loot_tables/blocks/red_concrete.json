@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diorite_stairs"
+                    "name": "minecraft:black_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/diorite_stairs"
+    "random_sequence": "minecraft:blocks/black_carpet"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_stairs"
+                    "name": "minecraft:light_blue_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_stairs"
+    "random_sequence": "minecraft:blocks/light_blue_wool"
 }

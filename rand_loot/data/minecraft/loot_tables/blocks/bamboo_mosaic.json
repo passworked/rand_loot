@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_pressure_plate"
+                    "name": "minecraft:bone_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_pressure_plate"
+    "random_sequence": "minecraft:blocks/bone_block"
 }

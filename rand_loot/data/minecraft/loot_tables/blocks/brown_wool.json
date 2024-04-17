@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dirt"
+                    "name": "minecraft:stripped_dark_oak_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/farmland"
+    "random_sequence": "minecraft:blocks/stripped_dark_oak_log"
 }

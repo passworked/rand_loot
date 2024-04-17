@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_fence_gate"
+                    "name": "minecraft:prismarine"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_fence_gate"
+    "random_sequence": "minecraft:blocks/prismarine"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_fence"
+                    "name": "minecraft:orange_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_fence"
+    "random_sequence": "minecraft:blocks/orange_carpet"
 }

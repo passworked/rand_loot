@@ -11,11 +11,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_blue_wool"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:trapped_chest"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_blue_wool"
+    "random_sequence": "minecraft:blocks/trapped_chest"
 }

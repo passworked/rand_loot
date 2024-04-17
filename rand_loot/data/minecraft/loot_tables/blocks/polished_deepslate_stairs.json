@@ -11,11 +11,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo_stairs"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:dispenser"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo_stairs"
+    "random_sequence": "minecraft:blocks/dispenser"
 }

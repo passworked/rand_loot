@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:end_stone_brick_wall"
+                    "name": "minecraft:yellow_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/end_stone_brick_wall"
+    "random_sequence": "minecraft:blocks/yellow_concrete_powder"
 }

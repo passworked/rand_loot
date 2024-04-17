@@ -12,7 +12,7 @@
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 2.0,
-                                "min": 1.0
+                                "min": 0.0
                             },
                             "function": "minecraft:set_count"
                         },
@@ -25,11 +25,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:feather"
+                    "name": "minecraft:leather"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/parrot"
+    "random_sequence": "minecraft:entities/donkey"
 }

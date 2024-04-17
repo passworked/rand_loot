@@ -11,11 +11,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:exposed_copper"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:furnace"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/exposed_copper"
+    "random_sequence": "minecraft:blocks/furnace"
 }

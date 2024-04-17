@@ -5,17 +5,21 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "block": "minecraft:cave_vines",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                        "berries": "true"
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_carpet"
+                    "name": "minecraft:glow_berries"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_carpet"
+    "random_sequence": "minecraft:blocks/cave_vines"
 }

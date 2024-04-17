@@ -3,19 +3,43 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:repeater"
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:grass_block"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "name": "minecraft:dirt"
+                        }
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/repeater"
+    "random_sequence": "minecraft:blocks/grass_block"
 }

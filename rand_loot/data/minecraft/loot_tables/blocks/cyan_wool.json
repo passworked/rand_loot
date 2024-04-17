@@ -11,11 +11,28 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_pressure_plate"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Patterns",
+                                    "target": "BlockEntityTag.Patterns"
+                                }
+                            ],
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:brown_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_pressure_plate"
+    "random_sequence": "minecraft:blocks/brown_banner"
 }

@@ -25,7 +25,7 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:leather"
+                    "name": "minecraft:feather"
                 }
             ],
             "rolls": 1.0
@@ -36,15 +36,6 @@
                 {
                     "type": "minecraft:item",
                     "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        },
                         {
                             "conditions": [
                                 {
@@ -68,11 +59,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:beef"
+                    "name": "minecraft:chicken"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/mooshroom"
+    "random_sequence": "minecraft:entities/chicken"
 }

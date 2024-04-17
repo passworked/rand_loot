@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobblestone"
+                    "conditions": [
+                        {
+                            "block": "minecraft:dark_oak_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:dark_oak_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cobblestone"
+    "random_sequence": "minecraft:blocks/dark_oak_door"
 }

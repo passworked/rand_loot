@@ -28,11 +28,11 @@
                             "source": "block_entity"
                         }
                     ],
-                    "name": "minecraft:white_banner"
+                    "name": "minecraft:gray_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/white_banner"
+    "random_sequence": "minecraft:blocks/gray_banner"
 }

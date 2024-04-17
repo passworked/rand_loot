@@ -24,21 +24,31 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:deepslate_diamond_ore"
+                            "name": "minecraft:red_mushroom_block"
                         },
                         {
                             "type": "minecraft:item",
                             "functions": [
                                 {
-                                    "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:ore_drops",
-                                    "function": "minecraft:apply_bonus"
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 2.0,
+                                        "min": -6.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
+                                {
+                                    "function": "minecraft:limit_count",
+                                    "limit": {
+                                        "min": 0.0
+                                    }
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "minecraft:diamond"
+                            "name": "minecraft:red_mushroom"
                         }
                     ]
                 }
@@ -46,5 +56,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/deepslate_diamond_ore"
+    "random_sequence": "minecraft:blocks/red_mushroom_block"
 }

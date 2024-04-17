@@ -3,19 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:muddy_mangrove_roots"
+                    "functions": [
+                        {
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:exposed_cut_copper_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ],
+                    "name": "minecraft:exposed_cut_copper_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/muddy_mangrove_roots"
+    "random_sequence": "minecraft:blocks/exposed_cut_copper_slab"
 }

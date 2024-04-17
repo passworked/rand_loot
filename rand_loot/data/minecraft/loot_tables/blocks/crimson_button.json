@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_acacia_log"
+                    "name": "minecraft:lime_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_acacia_log"
+    "random_sequence": "minecraft:blocks/lime_concrete"
 }

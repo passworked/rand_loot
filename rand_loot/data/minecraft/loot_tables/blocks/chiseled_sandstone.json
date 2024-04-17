@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_stem"
+                    "name": "minecraft:lime_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_stem"
+    "random_sequence": "minecraft:blocks/lime_glazed_terracotta"
 }

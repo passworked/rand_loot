@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lead",
+                    "name": "minecraft:saddle",
                     "weight": 20
                 },
                 {
@@ -17,6 +17,11 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:enchanted_golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_otherside",
                     "weight": 2
                 },
                 {
@@ -36,17 +41,17 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chainmail_chestplate",
+                    "name": "minecraft:golden_horse_armor",
                     "weight": 10
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_hoe",
+                    "name": "minecraft:iron_horse_armor",
                     "weight": 15
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_chestplate",
+                    "name": "minecraft:diamond_horse_armor",
                     "weight": 5
                 },
                 {
@@ -283,20 +288,7 @@
                 }
             ],
             "rolls": 3.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:empty"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:vex_armor_trim_smithing_template"
-                }
-            ],
-            "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/woodland_mansion"
+    "random_sequence": "minecraft:chests/simple_dungeon"
 }

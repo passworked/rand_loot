@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:observer"
+                    "name": "minecraft:soul_lantern"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/observer"
+    "random_sequence": "minecraft:blocks/soul_lantern"
 }

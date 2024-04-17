@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_cherry_wood"
+                    "name": "minecraft:diorite_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_cherry_wood"
+    "random_sequence": "minecraft:blocks/diorite_wall"
 }

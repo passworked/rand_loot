@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cauldron"
+                    "name": "minecraft:oak_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/water_cauldron"
+    "random_sequence": "minecraft:blocks/oak_hanging_sign"
 }

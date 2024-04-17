@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_button"
+                    "name": "minecraft:light_gray_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_button"
+    "random_sequence": "minecraft:blocks/light_gray_concrete_powder"
 }

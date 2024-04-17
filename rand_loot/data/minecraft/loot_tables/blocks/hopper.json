@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:calcite"
+                    "name": "minecraft:waxed_oxidized_cut_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/calcite"
+    "random_sequence": "minecraft:blocks/waxed_oxidized_cut_copper"
 }

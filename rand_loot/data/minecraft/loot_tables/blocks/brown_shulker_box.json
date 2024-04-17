@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:tinted_glass"
+                    "name": "minecraft:magenta_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/tinted_glass"
+    "random_sequence": "minecraft:blocks/magenta_concrete_powder"
 }

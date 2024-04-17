@@ -25,14 +25,32 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:feather"
+                    "name": "minecraft:rotten_flesh"
                 }
             ],
             "rolls": 1.0
         },
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "chance": 0.025,
+                    "condition": "minecraft:random_chance_with_looting",
+                    "looting_multiplier": 0.01
+                }
+            ],
             "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
                 {
                     "type": "minecraft:item",
                     "functions": [
@@ -49,21 +67,13 @@
                                 }
                             ],
                             "function": "minecraft:furnace_smelt"
-                        },
-                        {
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
-                            },
-                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:chicken"
+                    "name": "minecraft:potato"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/chicken"
+    "random_sequence": "minecraft:entities/zombie_villager"
 }

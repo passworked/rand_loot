@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_fence"
+                    "name": "minecraft:smooth_red_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_fence"
+    "random_sequence": "minecraft:blocks/smooth_red_sandstone"
 }

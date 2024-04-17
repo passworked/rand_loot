@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:string"
+                    "name": "minecraft:quartz_pillar"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/tripwire"
+    "random_sequence": "minecraft:blocks/quartz_pillar"
 }

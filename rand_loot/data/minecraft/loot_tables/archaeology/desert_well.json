@@ -6,55 +6,39 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:burn_pottery_sherd"
+                    "name": "minecraft:archer_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:danger_pottery_sherd"
+                    "name": "minecraft:miner_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:friend_pottery_sherd"
+                    "name": "minecraft:prize_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heart_pottery_sherd"
+                    "name": "minecraft:skull_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heartbreak_pottery_sherd"
+                    "name": "minecraft:diamond"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:howl_pottery_sherd"
+                    "name": "minecraft:tnt"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sheaf_pottery_sherd"
+                    "name": "minecraft:gunpowder"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wayfinder_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raiser_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:shaper_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:host_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_relic"
+                    "name": "minecraft:emerald"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+    "random_sequence": "minecraft:archaeology/desert_pyramid"
 }

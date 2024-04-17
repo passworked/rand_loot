@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:rooted_dirt"
+                    "name": "minecraft:cobbled_deepslate_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/rooted_dirt"
+    "random_sequence": "minecraft:blocks/cobbled_deepslate_wall"
 }

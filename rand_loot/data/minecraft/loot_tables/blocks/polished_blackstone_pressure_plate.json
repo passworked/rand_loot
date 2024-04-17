@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_concrete"
+                    "name": "minecraft:oak_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_concrete"
+    "random_sequence": "minecraft:blocks/oak_log"
 }

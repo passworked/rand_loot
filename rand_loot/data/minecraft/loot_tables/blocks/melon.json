@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_hanging_sign"
+                    "conditions": [
+                        {
+                            "block": "minecraft:spruce_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:spruce_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_hanging_sign"
+    "random_sequence": "minecraft:blocks/spruce_door"
 }

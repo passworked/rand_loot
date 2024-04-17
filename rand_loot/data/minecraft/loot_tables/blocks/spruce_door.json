@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_diorite_stairs"
+                    "name": "minecraft:stripped_mangrove_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_diorite_stairs"
+    "random_sequence": "minecraft:blocks/stripped_mangrove_wood"
 }

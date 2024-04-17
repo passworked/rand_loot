@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:birch_wood"
+                    "conditions": [
+                        {
+                            "block": "minecraft:purple_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:purple_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/birch_wood"
+    "random_sequence": "minecraft:blocks/purple_bed"
 }

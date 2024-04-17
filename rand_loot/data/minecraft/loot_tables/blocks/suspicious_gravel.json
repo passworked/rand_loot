@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_quartz_block"
+                    "name": "minecraft:brown_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_quartz_block"
+    "random_sequence": "minecraft:blocks/brown_concrete_powder"
 }

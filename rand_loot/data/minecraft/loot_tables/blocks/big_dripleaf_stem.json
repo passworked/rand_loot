@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cactus"
+                    "name": "minecraft:blackstone_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cactus"
+    "random_sequence": "minecraft:blocks/blackstone_wall"
 }

@@ -11,17 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:enchanting_table"
+                    "name": "minecraft:jungle_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/enchanting_table"
+    "random_sequence": "minecraft:blocks/jungle_fence_gate"
 }

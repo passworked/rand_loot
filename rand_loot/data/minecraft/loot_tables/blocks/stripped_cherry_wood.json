@@ -1,30 +1,35 @@
 {
     "type": "minecraft:block",
-    "functions": [
-        {
-            "function": "minecraft:explosion_decay"
-        }
-    ],
     "pools": [
         {
             "bonus_rolls": 0.0,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
+                    "functions": [
                         {
-                            "block": "minecraft:pitcher_plant",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:stone_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:pitcher_plant"
+                    "name": "minecraft:stone_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pitcher_plant"
+    "random_sequence": "minecraft:blocks/stone_slab"
 }

@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:jungle_hanging_sign"
+                    "conditions": [
+                        {
+                            "block": "minecraft:lime_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:lime_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/jungle_hanging_sign"
+    "random_sequence": "minecraft:blocks/lime_bed"
 }

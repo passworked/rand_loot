@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_bars"
+                    "name": "minecraft:crying_obsidian"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/iron_bars"
+    "random_sequence": "minecraft:blocks/crying_obsidian"
 }

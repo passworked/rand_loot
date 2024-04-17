@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:jungle_trapdoor"
+                    "name": "minecraft:birch_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/jungle_trapdoor"
+    "random_sequence": "minecraft:blocks/birch_sign"
 }

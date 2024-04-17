@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lime_concrete_powder"
+                    "name": "minecraft:spruce_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lime_concrete_powder"
+    "random_sequence": "minecraft:blocks/spruce_pressure_plate"
 }

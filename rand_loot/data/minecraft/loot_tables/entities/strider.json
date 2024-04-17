@@ -25,55 +25,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:rotten_flesh"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                },
-                {
-                    "chance": 0.025,
-                    "condition": "minecraft:random_chance_with_looting",
-                    "looting_multiplier": 0.01
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_ingot"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "flags": {
-                                            "is_on_fire": true
-                                        }
-                                    }
-                                }
-                            ],
-                            "function": "minecraft:furnace_smelt"
-                        }
-                    ],
-                    "name": "minecraft:potato"
+                    "name": "minecraft:leather"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/husk"
+    "random_sequence": "minecraft:entities/trader_llama"
 }

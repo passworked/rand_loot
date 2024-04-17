@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cyan_glazed_terracotta"
+                    "name": "minecraft:birch_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cyan_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/birch_pressure_plate"
 }

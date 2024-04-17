@@ -3,28 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
+                    "functions": [
                         {
-                            "block": "minecraft:sunflower",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:purpur_slab",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "type": "double"
+                                    }
+                                }
+                            ],
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:sunflower"
+                    "name": "minecraft:purpur_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sunflower"
+    "random_sequence": "minecraft:blocks/purpur_slab"
 }

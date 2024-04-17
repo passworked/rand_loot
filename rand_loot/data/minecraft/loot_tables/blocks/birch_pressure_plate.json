@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_trapdoor"
+                    "name": "minecraft:red_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_trapdoor"
+    "random_sequence": "minecraft:blocks/red_sandstone"
 }

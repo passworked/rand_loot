@@ -5,17 +5,21 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "block": "minecraft:cave_vines_plant",
+                    "condition": "minecraft:block_state_property",
+                    "properties": {
+                        "berries": "true"
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_warped_hyphae"
+                    "name": "minecraft:glow_berries"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_warped_hyphae"
+    "random_sequence": "minecraft:blocks/cave_vines_plant"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_trapdoor"
+                    "name": "minecraft:acacia_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_trapdoor"
+    "random_sequence": "minecraft:blocks/acacia_stairs"
 }

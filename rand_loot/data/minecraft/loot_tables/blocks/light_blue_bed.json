@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purple_wool"
+                    "name": "minecraft:sniffer_egg"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_wool"
+    "random_sequence": "minecraft:blocks/sniffer_egg"
 }

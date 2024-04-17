@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diorite"
+                    "name": "minecraft:smooth_basalt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/diorite"
+    "random_sequence": "minecraft:blocks/smooth_basalt"
 }

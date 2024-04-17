@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dead_brain_coral_block"
+                    "name": "minecraft:stripped_birch_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dead_brain_coral_block"
+    "random_sequence": "minecraft:blocks/stripped_birch_wood"
 }

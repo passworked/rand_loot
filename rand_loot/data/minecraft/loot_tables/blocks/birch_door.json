@@ -24,30 +24,31 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:copper_ore"
+                            "functions": [
+                                {
+                                    "function": "minecraft:copy_nbt",
+                                    "ops": [
+                                        {
+                                            "op": "replace",
+                                            "source": "Bees",
+                                            "target": "BlockEntityTag.Bees"
+                                        }
+                                    ],
+                                    "source": "block_entity"
+                                },
+                                {
+                                    "block": "minecraft:beehive",
+                                    "function": "minecraft:copy_state",
+                                    "properties": [
+                                        "honey_level"
+                                    ]
+                                }
+                            ],
+                            "name": "minecraft:beehive"
                         },
                         {
                             "type": "minecraft:item",
-                            "functions": [
-                                {
-                                    "add": false,
-                                    "count": {
-                                        "type": "minecraft:uniform",
-                                        "max": 5.0,
-                                        "min": 2.0
-                                    },
-                                    "function": "minecraft:set_count"
-                                },
-                                {
-                                    "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:ore_drops",
-                                    "function": "minecraft:apply_bonus"
-                                },
-                                {
-                                    "function": "minecraft:explosion_decay"
-                                }
-                            ],
-                            "name": "minecraft:raw_copper"
+                            "name": "minecraft:beehive"
                         }
                     ]
                 }
@@ -55,5 +56,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/copper_ore"
+    "random_sequence": "minecraft:blocks/beehive"
 }

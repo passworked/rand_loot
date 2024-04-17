@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_concrete_powder"
+                    "name": "minecraft:cyan_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_gray_concrete_powder"
+    "random_sequence": "minecraft:blocks/cyan_concrete_powder"
 }

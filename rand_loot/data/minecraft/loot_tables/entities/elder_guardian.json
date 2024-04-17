@@ -11,10 +11,24 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 3.0,
+                                "max": 2.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
+                        },
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "flags": {
+                                            "is_on_fire": true
+                                        }
+                                    }
+                                }
+                            ],
+                            "function": "minecraft:furnace_smelt"
                         },
                         {
                             "count": {
@@ -25,11 +39,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:glow_ink_sac"
+                    "name": "minecraft:mutton"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/glow_squid"
+    "random_sequence": "minecraft:entities/sheep"
 }

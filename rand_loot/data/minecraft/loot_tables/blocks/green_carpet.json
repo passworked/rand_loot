@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_blackstone_button"
+                    "name": "minecraft:string"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_blackstone_button"
+    "random_sequence": "minecraft:blocks/tripwire"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:andesite_stairs"
+                    "name": "minecraft:cherry_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/andesite_stairs"
+    "random_sequence": "minecraft:blocks/cherry_fence"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_sapling"
+                    "name": "minecraft:cherry_sapling"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_sapling"
+    "random_sequence": "minecraft:blocks/cherry_sapling"
 }

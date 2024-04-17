@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_spruce_wood"
+                    "name": "minecraft:black_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_spruce_wood"
+    "random_sequence": "minecraft:blocks/black_wool"
 }

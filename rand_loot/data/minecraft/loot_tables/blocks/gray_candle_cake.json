@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_button"
+                    "name": "minecraft:smooth_stone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_button"
+    "random_sequence": "minecraft:blocks/smooth_stone"
 }

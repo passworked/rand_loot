@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flower_pot"
+                    "name": "minecraft:waxed_weathered_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/flower_pot"
+    "random_sequence": "minecraft:blocks/waxed_weathered_copper"
 }

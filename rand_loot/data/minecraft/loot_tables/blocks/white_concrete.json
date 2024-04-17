@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purpur_stairs"
+                    "name": "minecraft:crimson_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purpur_stairs"
+    "random_sequence": "minecraft:blocks/crimson_fence_gate"
 }

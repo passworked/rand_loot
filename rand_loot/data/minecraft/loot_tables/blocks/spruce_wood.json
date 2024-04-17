@@ -11,26 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flower_pot"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cornflower"
+                    "conditions": [
+                        {
+                            "block": "minecraft:light_blue_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_blue_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/potted_cornflower"
+    "random_sequence": "minecraft:blocks/light_blue_bed"
 }

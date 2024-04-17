@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blue_carpet"
+                    "name": "minecraft:scaffolding"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blue_carpet"
+    "random_sequence": "minecraft:blocks/scaffolding"
 }

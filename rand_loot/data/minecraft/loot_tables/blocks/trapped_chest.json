@@ -5,31 +5,58 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "add": false,
+                            "type": "minecraft:dynamic",
                             "conditions": [
                                 {
-                                    "block": "minecraft:waxed_cut_copper_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "minecraft:breaks_decorated_pots"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:match_tool",
+                                        "predicate": {
+                                            "enchantments": [
+                                                {
+                                                    "enchantment": "minecraft:silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
                                     }
                                 }
                             ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "name": "minecraft:sherds"
                         },
                         {
-                            "function": "minecraft:explosion_decay"
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:copy_nbt",
+                                    "ops": [
+                                        {
+                                            "op": "replace",
+                                            "source": "sherds",
+                                            "target": "BlockEntityTag.sherds"
+                                        }
+                                    ],
+                                    "source": "block_entity"
+                                }
+                            ],
+                            "name": "minecraft:decorated_pot"
                         }
-                    ],
-                    "name": "minecraft:waxed_cut_copper_slab"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_cut_copper_slab"
+    "random_sequence": "minecraft:blocks/decorated_pot"
 }

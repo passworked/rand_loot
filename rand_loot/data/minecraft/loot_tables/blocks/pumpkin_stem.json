@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:damaged_anvil"
+                    "name": "minecraft:crimson_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/damaged_anvil"
+    "random_sequence": "minecraft:blocks/crimson_hyphae"
 }

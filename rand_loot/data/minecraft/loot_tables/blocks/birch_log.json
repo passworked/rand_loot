@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:amethyst_block"
+                    "name": "minecraft:bamboo_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/amethyst_block"
+    "random_sequence": "minecraft:blocks/bamboo_trapdoor"
 }

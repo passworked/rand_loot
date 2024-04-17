@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:soul_torch"
+                    "name": "minecraft:mangrove_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/soul_torch"
+    "random_sequence": "minecraft:blocks/mangrove_wood"
 }

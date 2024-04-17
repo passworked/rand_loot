@@ -13,18 +13,18 @@
                     "type": "minecraft:item",
                     "conditions": [
                         {
-                            "block": "minecraft:birch_door",
+                            "block": "minecraft:warped_door",
                             "condition": "minecraft:block_state_property",
                             "properties": {
                                 "half": "lower"
                             }
                         }
                     ],
-                    "name": "minecraft:birch_door"
+                    "name": "minecraft:warped_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/birch_door"
+    "random_sequence": "minecraft:blocks/warped_door"
 }

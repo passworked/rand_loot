@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lightning_rod"
+                    "name": "minecraft:cyan_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lightning_rod"
+    "random_sequence": "minecraft:blocks/cyan_glazed_terracotta"
 }

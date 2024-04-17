@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:birch_hanging_sign"
+                    "name": "minecraft:poppy"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/birch_hanging_sign"
+    "random_sequence": "minecraft:blocks/poppy"
 }

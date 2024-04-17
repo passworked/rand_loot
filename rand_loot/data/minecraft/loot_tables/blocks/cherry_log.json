@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mud_brick_wall"
+                    "name": "minecraft:raw_copper_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mud_brick_wall"
+    "random_sequence": "minecraft:blocks/raw_copper_block"
 }

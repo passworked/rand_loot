@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:jungle_planks"
+                    "name": "minecraft:end_stone_brick_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/jungle_planks"
+    "random_sequence": "minecraft:blocks/end_stone_brick_stairs"
 }

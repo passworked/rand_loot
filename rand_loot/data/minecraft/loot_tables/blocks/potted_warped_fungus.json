@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chain"
+                    "name": "minecraft:mud"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chain"
+    "random_sequence": "minecraft:blocks/mud"
 }

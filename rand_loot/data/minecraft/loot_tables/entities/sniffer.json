@@ -3,6 +3,11 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -11,8 +16,8 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 2.0
+                                "max": 1.0,
+                                "min": 0.0
                             },
                             "function": "minecraft:set_count"
                         },
@@ -25,11 +30,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:string"
+                    "name": "minecraft:phantom_membrane"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/strider"
+    "random_sequence": "minecraft:entities/phantom"
 }

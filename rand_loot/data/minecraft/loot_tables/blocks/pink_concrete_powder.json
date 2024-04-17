@@ -43,11 +43,11 @@
                             "function": "minecraft:set_contents"
                         }
                     ],
-                    "name": "minecraft:light_blue_shulker_box"
+                    "name": "minecraft:lime_shulker_box"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_blue_shulker_box"
+    "random_sequence": "minecraft:blocks/lime_shulker_box"
 }

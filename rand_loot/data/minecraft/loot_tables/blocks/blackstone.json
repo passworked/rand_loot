@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:azalea"
+                    "name": "minecraft:stripped_warped_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/azalea"
+    "random_sequence": "minecraft:blocks/stripped_warped_hyphae"
 }

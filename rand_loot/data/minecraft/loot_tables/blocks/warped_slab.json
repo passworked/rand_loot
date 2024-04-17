@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobbled_deepslate_stairs"
+                    "name": "minecraft:dead_brain_coral_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cobbled_deepslate_stairs"
+    "random_sequence": "minecraft:blocks/dead_brain_coral_block"
 }

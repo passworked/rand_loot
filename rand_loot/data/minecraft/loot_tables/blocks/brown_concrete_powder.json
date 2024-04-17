@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pointed_dripstone"
+                    "name": "minecraft:cherry_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pointed_dripstone"
+    "random_sequence": "minecraft:blocks/cherry_planks"
 }

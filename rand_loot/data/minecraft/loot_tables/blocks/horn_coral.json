@@ -3,14 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:yellow_candle"
+                    "name": "minecraft:lily_of_the_valley"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/yellow_candle_cake"
+    "random_sequence": "minecraft:blocks/lily_of_the_valley"
 }

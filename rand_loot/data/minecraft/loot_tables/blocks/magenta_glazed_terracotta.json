@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_hyphae"
+                    "name": "minecraft:ochre_froglight"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_hyphae"
+    "random_sequence": "minecraft:blocks/ochre_froglight"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:andesite"
+                    "name": "minecraft:kelp"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/andesite"
+    "random_sequence": "minecraft:blocks/kelp"
 }

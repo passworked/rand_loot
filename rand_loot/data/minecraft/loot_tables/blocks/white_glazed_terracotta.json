@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:mangrove_door",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:mangrove_door"
+                    "name": "minecraft:mud_brick_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_door"
+    "random_sequence": "minecraft:blocks/mud_brick_stairs"
 }

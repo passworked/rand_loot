@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smooth_basalt"
+                    "name": "minecraft:gray_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_basalt"
+    "random_sequence": "minecraft:blocks/gray_concrete"
 }

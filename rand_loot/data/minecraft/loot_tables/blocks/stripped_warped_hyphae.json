@@ -11,28 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        },
-                        {
-                            "function": "minecraft:copy_nbt",
-                            "ops": [
-                                {
-                                    "op": "replace",
-                                    "source": "Patterns",
-                                    "target": "BlockEntityTag.Patterns"
-                                }
-                            ],
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:purple_banner"
+                    "name": "minecraft:waxed_exposed_cut_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_banner"
+    "random_sequence": "minecraft:blocks/waxed_exposed_cut_copper"
 }

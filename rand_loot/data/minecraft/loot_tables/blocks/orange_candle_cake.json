@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chipped_anvil"
+                    "name": "minecraft:green_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chipped_anvil"
+    "random_sequence": "minecraft:blocks/green_concrete_powder"
 }

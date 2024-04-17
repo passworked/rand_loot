@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wither_rose"
+                    "name": "minecraft:spore_blossom"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/wither_rose"
+    "random_sequence": "minecraft:blocks/spore_blossom"
 }
