@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:verdant_froglight"
+                    "name": "minecraft:iron_bars"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/verdant_froglight"
+    "random_sequence": "minecraft:blocks/iron_bars"
 }

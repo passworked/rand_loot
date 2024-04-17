@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_fungus"
+                    "name": "minecraft:green_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_fungus"
+    "random_sequence": "minecraft:blocks/green_wool"
 }

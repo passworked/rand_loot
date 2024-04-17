@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:quartz_bricks"
+                    "conditions": [
+                        {
+                            "block": "minecraft:pink_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:pink_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/quartz_bricks"
+    "random_sequence": "minecraft:blocks/pink_bed"
 }

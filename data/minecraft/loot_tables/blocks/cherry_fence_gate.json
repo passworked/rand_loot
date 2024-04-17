@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smithing_table"
+                    "name": "minecraft:mangrove_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smithing_table"
+    "random_sequence": "minecraft:blocks/mangrove_sign"
 }

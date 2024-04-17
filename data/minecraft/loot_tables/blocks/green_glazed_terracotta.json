@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone_brick_wall"
+                    "name": "minecraft:smooth_red_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stone_brick_wall"
+    "random_sequence": "minecraft:blocks/smooth_red_sandstone"
 }

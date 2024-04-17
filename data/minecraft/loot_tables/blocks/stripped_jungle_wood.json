@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_wool"
+                    "name": "minecraft:honeycomb_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_wool"
+    "random_sequence": "minecraft:blocks/honeycomb_block"
 }

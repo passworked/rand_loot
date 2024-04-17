@@ -21,11 +21,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:yellow_stained_glass"
+                    "name": "minecraft:bubble_coral_fan"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/yellow_stained_glass"
+    "random_sequence": "minecraft:blocks/bubble_coral_fan"
 }

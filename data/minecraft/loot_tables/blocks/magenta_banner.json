@@ -11,11 +11,28 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_wood"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Patterns",
+                                    "target": "BlockEntityTag.Patterns"
+                                }
+                            ],
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:magenta_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_wood"
+    "random_sequence": "minecraft:blocks/magenta_banner"
 }

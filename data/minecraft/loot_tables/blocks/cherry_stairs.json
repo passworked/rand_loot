@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pearlescent_froglight"
+                    "name": "minecraft:sugar_cane"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pearlescent_froglight"
+    "random_sequence": "minecraft:blocks/sugar_cane"
 }

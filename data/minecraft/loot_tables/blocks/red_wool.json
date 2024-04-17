@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sandstone_stairs"
+                    "name": "minecraft:cornflower"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sandstone_stairs"
+    "random_sequence": "minecraft:blocks/cornflower"
 }

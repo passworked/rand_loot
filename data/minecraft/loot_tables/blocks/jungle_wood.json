@@ -5,59 +5,58 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "add": false,
+                            "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "block": "minecraft:sea_pickle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "pickles": "2"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "name": "minecraft:deepslate_redstone_ore"
                         },
                         {
-                            "add": false,
-                            "conditions": [
+                            "type": "minecraft:item",
+                            "functions": [
                                 {
-                                    "block": "minecraft:sea_pickle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "pickles": "3"
+                                    "add": false,
+                                    "count": {
+                                        "type": "minecraft:uniform",
+                                        "max": 5.0,
+                                        "min": 4.0
+                                    },
+                                    "function": "minecraft:set_count"
+                                },
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 1
                                     }
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "count": 3.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:sea_pickle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "pickles": "4"
-                                    }
-                                }
-                            ],
-                            "count": 4.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
+                            "name": "minecraft:redstone"
                         }
-                    ],
-                    "name": "minecraft:sea_pickle"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sea_pickle"
+    "random_sequence": "minecraft:blocks/deepslate_redstone_ore"
 }

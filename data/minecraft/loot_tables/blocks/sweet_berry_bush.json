@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_granite"
+                    "name": "minecraft:oxidized_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_granite"
+    "random_sequence": "minecraft:blocks/oxidized_copper"
 }

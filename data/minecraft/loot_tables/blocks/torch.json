@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_bricks"
+                    "name": "minecraft:red_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_bricks"
+    "random_sequence": "minecraft:blocks/red_carpet"
 }

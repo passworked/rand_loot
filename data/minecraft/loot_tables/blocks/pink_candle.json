@@ -3,33 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:mud_brick_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
-                                    }
-                                }
-                            ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
-                        }
-                    ],
-                    "name": "minecraft:mud_brick_slab"
+                    "name": "minecraft:crimson_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mud_brick_slab"
+    "random_sequence": "minecraft:blocks/crimson_hanging_sign"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_cut_copper_stairs"
+                    "name": "minecraft:mud_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_cut_copper_stairs"
+    "random_sequence": "minecraft:blocks/mud_brick_wall"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sugar_cane"
+                    "name": "minecraft:polished_diorite"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sugar_cane"
+    "random_sequence": "minecraft:blocks/polished_diorite"
 }

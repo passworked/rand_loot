@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oak_pressure_plate"
+                    "name": "minecraft:netherite_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_pressure_plate"
+    "random_sequence": "minecraft:blocks/netherite_block"
 }

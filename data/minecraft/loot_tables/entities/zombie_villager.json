@@ -1,4 +1,4 @@
 {
     "type": "minecraft:entity",
-    "random_sequence": "minecraft:entities/piglin"
+    "random_sequence": "minecraft:entities/ender_dragon"
 }

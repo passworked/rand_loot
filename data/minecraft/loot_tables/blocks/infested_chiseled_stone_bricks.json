@@ -11,7 +11,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:polished_andesite_slab",
+                                    "block": "minecraft:red_sandstone_slab",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "type": "double"
@@ -25,11 +25,11 @@
                             "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:polished_andesite_slab"
+                    "name": "minecraft:red_sandstone_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_andesite_slab"
+    "random_sequence": "minecraft:blocks/red_sandstone_slab"
 }

@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_terracotta"
+                    "conditions": [
+                        {
+                            "block": "minecraft:bamboo_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bamboo_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_terracotta"
+    "random_sequence": "minecraft:blocks/bamboo_door"
 }

@@ -9,31 +9,27 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": 1.0,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
                             "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:pufferfish"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "chance": 0.05,
-                    "condition": "minecraft:random_chance"
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone_meal"
+                    "name": "minecraft:rotten_flesh"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/pufferfish"
+    "random_sequence": "minecraft:entities/zombie_horse"
 }

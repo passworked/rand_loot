@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:shroomlight"
+                    "name": "minecraft:mangrove_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/shroomlight"
+    "random_sequence": "minecraft:blocks/mangrove_log"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:grindstone"
+                    "name": "minecraft:fletching_table"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/grindstone"
+    "random_sequence": "minecraft:blocks/fletching_table"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_warped_hyphae"
+                    "name": "minecraft:warped_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_warped_hyphae"
+    "random_sequence": "minecraft:blocks/warped_sign"
 }

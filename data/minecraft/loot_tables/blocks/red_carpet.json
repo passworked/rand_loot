@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:end_rod"
+                    "name": "minecraft:bamboo_mosaic"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/end_rod"
+    "random_sequence": "minecraft:blocks/bamboo_mosaic"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:deepslate_brick_wall"
+                    "name": "minecraft:bamboo_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/deepslate_brick_wall"
+    "random_sequence": "minecraft:blocks/bamboo_block"
 }

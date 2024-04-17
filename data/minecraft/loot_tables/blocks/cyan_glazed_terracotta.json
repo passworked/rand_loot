@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gray_concrete"
+                    "name": "minecraft:chiseled_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/gray_concrete"
+    "random_sequence": "minecraft:blocks/chiseled_sandstone"
 }

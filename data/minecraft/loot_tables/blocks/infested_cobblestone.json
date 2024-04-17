@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lever"
+                    "name": "minecraft:stonecutter"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lever"
+    "random_sequence": "minecraft:blocks/stonecutter"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cornflower"
+                    "name": "minecraft:pink_tulip"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cornflower"
+    "random_sequence": "minecraft:blocks/pink_tulip"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_sign"
+                    "name": "minecraft:yellow_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_sign"
+    "random_sequence": "minecraft:blocks/yellow_concrete_powder"
 }

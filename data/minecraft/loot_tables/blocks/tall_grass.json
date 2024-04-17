@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blackstone"
+                    "name": "minecraft:azure_bluet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blackstone"
+    "random_sequence": "minecraft:blocks/azure_bluet"
 }

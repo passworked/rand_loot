@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dead_tube_coral_block"
+                    "name": "minecraft:packed_mud"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dead_tube_coral_block"
+    "random_sequence": "minecraft:blocks/packed_mud"
 }

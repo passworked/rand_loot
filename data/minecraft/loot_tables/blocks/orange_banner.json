@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_log"
+                    "name": "minecraft:birch_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_log"
+    "random_sequence": "minecraft:blocks/birch_planks"
 }

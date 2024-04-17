@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_spruce_log"
+                    "name": "minecraft:cyan_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_spruce_log"
+    "random_sequence": "minecraft:blocks/cyan_wool"
 }

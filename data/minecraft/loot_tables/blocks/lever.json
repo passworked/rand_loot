@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:exposed_copper"
+                    "name": "minecraft:warped_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/exposed_copper"
+    "random_sequence": "minecraft:blocks/warped_hanging_sign"
 }

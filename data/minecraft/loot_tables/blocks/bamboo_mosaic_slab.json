@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo_button"
+                    "name": "minecraft:red_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo_button"
+    "random_sequence": "minecraft:blocks/red_wool"
 }

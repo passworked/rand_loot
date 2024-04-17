@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_stairs"
+                    "name": "minecraft:weathered_cut_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_stairs"
+    "random_sequence": "minecraft:blocks/weathered_cut_copper"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cracked_stone_bricks"
+                    "name": "minecraft:comparator"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cracked_stone_bricks"
+    "random_sequence": "minecraft:blocks/comparator"
 }

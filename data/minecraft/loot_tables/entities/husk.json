@@ -11,13 +11,21 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 2.0,
+                                "max": 1.0,
                                 "min": 0.0
                             },
                             "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:poppy"
+                    "name": "minecraft:ghast_tear"
                 }
             ],
             "rolls": 1.0
@@ -32,17 +40,25 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 3.0
+                                "max": 2.0,
+                                "min": 0.0
                             },
                             "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:iron_ingot"
+                    "name": "minecraft:gunpowder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/iron_golem"
+    "random_sequence": "minecraft:entities/ghast"
 }

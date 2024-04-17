@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:weathered_copper"
+                    "conditions": [
+                        {
+                            "block": "minecraft:light_gray_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_gray_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/weathered_copper"
+    "random_sequence": "minecraft:blocks/light_gray_bed"
 }

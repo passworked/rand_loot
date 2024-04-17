@@ -3,28 +3,33 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
+                    "functions": [
                         {
-                            "block": "minecraft:pink_bed",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "part": "head"
-                            }
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:cocoa",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "age": "2"
+                                    }
+                                }
+                            ],
+                            "count": 3.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:pink_bed"
+                    "name": "minecraft:cocoa_beans"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_bed"
+    "random_sequence": "minecraft:blocks/cocoa"
 }

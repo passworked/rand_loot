@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_pressure_plate"
+                    "name": "minecraft:end_rod"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_pressure_plate"
+    "random_sequence": "minecraft:blocks/end_rod"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oak_trapdoor"
+                    "name": "minecraft:lily_pad"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_trapdoor"
+    "random_sequence": "minecraft:blocks/lily_pad"
 }

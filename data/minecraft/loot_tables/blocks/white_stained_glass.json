@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_birch_log"
+                    "name": "minecraft:cut_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_birch_log"
+    "random_sequence": "minecraft:blocks/cut_sandstone"
 }

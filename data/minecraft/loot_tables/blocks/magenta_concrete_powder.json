@@ -3,36 +3,61 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        },
-                        {
-                            "function": "minecraft:copy_nbt",
-                            "ops": [
+                            "add": false,
+                            "conditions": [
                                 {
-                                    "op": "replace",
-                                    "source": "Patterns",
-                                    "target": "BlockEntityTag.Patterns"
+                                    "block": "minecraft:white_candle",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "candles": "2"
+                                    }
                                 }
                             ],
-                            "source": "block_entity"
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:white_candle",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "candles": "3"
+                                    }
+                                }
+                            ],
+                            "count": 3.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "add": false,
+                            "conditions": [
+                                {
+                                    "block": "minecraft:white_candle",
+                                    "condition": "minecraft:block_state_property",
+                                    "properties": {
+                                        "candles": "4"
+                                    }
+                                }
+                            ],
+                            "count": 4.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:pink_banner"
+                    "name": "minecraft:white_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_banner"
+    "random_sequence": "minecraft:blocks/white_candle"
 }

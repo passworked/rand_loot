@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:exposed_cut_copper"
+                    "name": "minecraft:jungle_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/exposed_cut_copper"
+    "random_sequence": "minecraft:blocks/jungle_log"
 }

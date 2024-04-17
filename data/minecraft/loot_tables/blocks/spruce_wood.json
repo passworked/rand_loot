@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pumpkin"
+                    "name": "minecraft:magenta_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pumpkin"
+    "random_sequence": "minecraft:blocks/magenta_terracotta"
 }

@@ -3,33 +3,25 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:birch_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
-                                    }
-                                }
-                            ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
                         }
                     ],
-                    "name": "minecraft:birch_slab"
+                    "name": "minecraft:enchanting_table"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/birch_slab"
+    "random_sequence": "minecraft:blocks/enchanting_table"
 }

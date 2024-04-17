@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_red_sandstone"
+                    "name": "minecraft:sticky_piston"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_red_sandstone"
+    "random_sequence": "minecraft:blocks/sticky_piston"
 }

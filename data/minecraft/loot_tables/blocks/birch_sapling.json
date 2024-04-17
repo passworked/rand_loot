@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_trapdoor"
+                    "name": "minecraft:mangrove_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_trapdoor"
+    "random_sequence": "minecraft:blocks/mangrove_trapdoor"
 }

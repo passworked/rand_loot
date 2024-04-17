@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sand"
+                    "name": "minecraft:spruce_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sand"
+    "random_sequence": "minecraft:blocks/spruce_wood"
 }

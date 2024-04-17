@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_stairs"
+                    "name": "minecraft:copper_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_stairs"
+    "random_sequence": "minecraft:blocks/copper_block"
 }

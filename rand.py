@@ -3,13 +3,14 @@ import shutil
 import random
 
 # 原始文件夹路径
-source_folder = r'./data/randloot/loot_tables'
+source_folder = r'./loot_tables'
 # 目标文件夹路径，确保这个文件夹可以被创建
-target_folder = r'./new_data/minecraft/loot_tables'
+target_folder = r'./data/minecraft/loot_tables'
 
 # 确保目标文件夹存在
-os.makedirs(target_folder, exist_ok=True)
-
+if os.path.exists(target_folder):
+    shutil.rmtree(target_folder)
+os.makedirs(target_folder)
 # 步骤1：遍历原始目录收集战利品表文件的完整路径
 loot_table_paths = []
 for root, _, files in os.walk(source_folder):

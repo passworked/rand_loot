@@ -1,4 +1,4 @@
 {
     "type": "minecraft:entity",
-    "random_sequence": "minecraft:entities/endermite"
+    "random_sequence": "minecraft:entities/allay"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:weathered_cut_copper"
+                    "name": "minecraft:smooth_quartz_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/weathered_cut_copper"
+    "random_sequence": "minecraft:blocks/smooth_quartz_stairs"
 }

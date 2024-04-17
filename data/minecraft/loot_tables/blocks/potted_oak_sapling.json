@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:hay_block"
+                    "name": "minecraft:kelp"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/hay_block"
+    "random_sequence": "minecraft:blocks/kelp_plant"
 }

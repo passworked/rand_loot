@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cauldron"
+                    "name": "minecraft:mossy_cobblestone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/water_cauldron"
+    "random_sequence": "minecraft:blocks/mossy_cobblestone"
 }

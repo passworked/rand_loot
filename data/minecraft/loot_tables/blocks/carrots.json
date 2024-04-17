@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_log"
+                    "name": "minecraft:jungle_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_log"
+    "random_sequence": "minecraft:blocks/jungle_fence"
 }

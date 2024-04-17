@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_cut_copper"
+                    "name": "minecraft:yellow_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_cut_copper"
+    "random_sequence": "minecraft:blocks/yellow_concrete"
 }

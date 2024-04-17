@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mossy_stone_brick_wall"
+                    "name": "minecraft:warped_wart_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mossy_stone_brick_wall"
+    "random_sequence": "minecraft:blocks/warped_wart_block"
 }

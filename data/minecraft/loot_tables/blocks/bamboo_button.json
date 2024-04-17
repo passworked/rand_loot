@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo_pressure_plate"
+                    "name": "minecraft:waxed_oxidized_copper"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo_pressure_plate"
+    "random_sequence": "minecraft:blocks/waxed_oxidized_copper"
 }

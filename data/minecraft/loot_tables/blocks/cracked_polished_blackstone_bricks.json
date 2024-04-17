@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_oak_wood"
+                    "name": "minecraft:stripped_cherry_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_oak_wood"
+    "random_sequence": "minecraft:blocks/stripped_cherry_log"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cracked_deepslate_bricks"
+                    "name": "minecraft:stripped_warped_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cracked_deepslate_bricks"
+    "random_sequence": "minecraft:blocks/stripped_warped_hyphae"
 }

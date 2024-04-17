@@ -1,4 +1,21 @@
 {
     "type": "minecraft:block",
-    "random_sequence": "minecraft:blocks/suspicious_gravel"
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crimson_planks"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:blocks/crimson_planks"
 }

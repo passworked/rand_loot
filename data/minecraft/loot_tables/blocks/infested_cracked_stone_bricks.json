@@ -11,17 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
+                    "conditions": [
                         {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
+                            "block": "minecraft:peony",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
                         }
                     ],
-                    "name": "minecraft:enchanting_table"
+                    "name": "minecraft:peony"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/enchanting_table"
+    "random_sequence": "minecraft:blocks/peony"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:jungle_stairs"
+                    "name": "minecraft:light_blue_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/jungle_stairs"
+    "random_sequence": "minecraft:blocks/light_blue_carpet"
 }

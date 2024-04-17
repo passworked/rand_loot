@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:granite_wall"
+                    "name": "minecraft:dark_oak_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/granite_wall"
+    "random_sequence": "minecraft:blocks/dark_oak_log"
 }

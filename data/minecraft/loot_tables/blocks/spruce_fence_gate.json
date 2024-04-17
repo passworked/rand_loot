@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:soul_soil"
+                    "name": "minecraft:brown_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/soul_soil"
+    "random_sequence": "minecraft:blocks/brown_wool"
 }

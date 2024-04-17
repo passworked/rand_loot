@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:andesite"
+                    "name": "minecraft:mud_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/andesite"
+    "random_sequence": "minecraft:blocks/mud_bricks"
 }

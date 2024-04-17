@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sniffer_egg"
+                    "name": "minecraft:honey_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sniffer_egg"
+    "random_sequence": "minecraft:blocks/honey_block"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_button"
+                    "name": "minecraft:orange_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_button"
+    "random_sequence": "minecraft:blocks/orange_terracotta"
 }

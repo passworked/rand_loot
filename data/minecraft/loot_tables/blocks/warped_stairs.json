@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_planks"
+                    "name": "minecraft:stripped_warped_stem"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_planks"
+    "random_sequence": "minecraft:blocks/stripped_warped_stem"
 }

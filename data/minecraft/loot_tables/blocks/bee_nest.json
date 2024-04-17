@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_fence"
+                    "name": "minecraft:stripped_jungle_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_fence"
+    "random_sequence": "minecraft:blocks/stripped_jungle_wood"
 }

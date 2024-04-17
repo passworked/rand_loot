@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_concrete"
+                    "name": "minecraft:ancient_debris"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_concrete"
+    "random_sequence": "minecraft:blocks/ancient_debris"
 }

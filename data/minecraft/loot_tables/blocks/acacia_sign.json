@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oak_sapling"
+                    "name": "minecraft:wet_sponge"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_sapling"
+    "random_sequence": "minecraft:blocks/wet_sponge"
 }

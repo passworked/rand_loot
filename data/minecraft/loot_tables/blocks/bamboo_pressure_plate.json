@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lightning_rod"
+                    "name": "minecraft:deepslate_tiles"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lightning_rod"
+    "random_sequence": "minecraft:blocks/deepslate_tiles"
 }

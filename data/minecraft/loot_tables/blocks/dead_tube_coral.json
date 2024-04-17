@@ -1,30 +1,16 @@
 {
     "type": "minecraft:block",
-    "functions": [
-        {
-            "function": "minecraft:explosion_decay"
-        }
-    ],
     "pools": [
         {
             "bonus_rolls": 0.0,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:pitcher_plant",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:pitcher_plant"
+                    "name": "minecraft:light_blue_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pitcher_plant"
+    "random_sequence": "minecraft:blocks/light_blue_candle_cake"
 }

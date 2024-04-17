@@ -1,32 +1,39 @@
 {
-    "type": "minecraft:block",
+    "type": "minecraft:entity",
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
                             "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
-                            },
+                            "count": 1.0,
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:blaze_rod"
+                    "name": "minecraft:pufferfish"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "chance": 0.05,
+                    "condition": "minecraft:random_chance"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/blaze"
+    "random_sequence": "minecraft:entities/pufferfish"
 }

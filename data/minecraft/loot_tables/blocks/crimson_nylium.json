@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:repeater"
+                    "name": "minecraft:stripped_dark_oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/repeater"
+    "random_sequence": "minecraft:blocks/stripped_dark_oak_wood"
 }

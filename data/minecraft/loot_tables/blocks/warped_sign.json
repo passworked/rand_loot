@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_sapling"
+                    "name": "minecraft:cherry_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_sapling"
+    "random_sequence": "minecraft:blocks/cherry_fence"
 }

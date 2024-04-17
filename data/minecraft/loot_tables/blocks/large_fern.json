@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_fence_gate"
+                    "name": "minecraft:warped_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_fence_gate"
+    "random_sequence": "minecraft:blocks/warped_hyphae"
 }

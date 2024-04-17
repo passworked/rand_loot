@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobblestone_wall"
+                    "name": "minecraft:dark_oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cobblestone_wall"
+    "random_sequence": "minecraft:blocks/dark_oak_wood"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:yellow_carpet"
+                    "name": "minecraft:shroomlight"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/yellow_carpet"
+    "random_sequence": "minecraft:blocks/shroomlight"
 }

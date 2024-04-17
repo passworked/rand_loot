@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_mangrove_log"
+                    "name": "minecraft:lime_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_mangrove_log"
+    "random_sequence": "minecraft:blocks/lime_glazed_terracotta"
 }

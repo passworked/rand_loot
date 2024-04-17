@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_roots"
+                    "name": "minecraft:bamboo"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_roots"
+    "random_sequence": "minecraft:blocks/bamboo"
 }

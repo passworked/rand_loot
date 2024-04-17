@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:light_blue_bed",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "part": "head"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:light_blue_bed"
+                    "name": "minecraft:cyan_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_blue_bed"
+    "random_sequence": "minecraft:blocks/cyan_concrete_powder"
 }

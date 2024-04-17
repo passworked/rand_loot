@@ -24,7 +24,7 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:gilded_blackstone"
+                            "name": "minecraft:amethyst_cluster"
                         },
                         {
                             "type": "minecraft:alternatives",
@@ -33,37 +33,39 @@
                                     "type": "minecraft:item",
                                     "conditions": [
                                         {
-                                            "chances": [
-                                                0.1,
-                                                0.14285715,
-                                                0.25,
-                                                1.0
-                                            ],
-                                            "condition": "minecraft:table_bonus",
-                                            "enchantment": "minecraft:fortune"
+                                            "condition": "minecraft:match_tool",
+                                            "predicate": {
+                                                "tag": "minecraft:cluster_max_harvestables"
+                                            }
                                         }
                                     ],
                                     "functions": [
                                         {
                                             "add": false,
-                                            "count": {
-                                                "type": "minecraft:uniform",
-                                                "max": 5.0,
-                                                "min": 2.0
-                                            },
+                                            "count": 4.0,
                                             "function": "minecraft:set_count"
+                                        },
+                                        {
+                                            "enchantment": "minecraft:fortune",
+                                            "formula": "minecraft:ore_drops",
+                                            "function": "minecraft:apply_bonus"
                                         }
                                     ],
-                                    "name": "minecraft:gold_nugget"
+                                    "name": "minecraft:amethyst_shard"
                                 },
                                 {
                                     "type": "minecraft:item",
-                                    "name": "minecraft:gilded_blackstone"
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:survives_explosion"
+                                    "functions": [
+                                        {
+                                            "add": false,
+                                            "count": 2.0,
+                                            "function": "minecraft:set_count"
+                                        },
+                                        {
+                                            "function": "minecraft:explosion_decay"
+                                        }
+                                    ],
+                                    "name": "minecraft:amethyst_shard"
                                 }
                             ]
                         }
@@ -73,5 +75,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/gilded_blackstone"
+    "random_sequence": "minecraft:blocks/amethyst_cluster"
 }

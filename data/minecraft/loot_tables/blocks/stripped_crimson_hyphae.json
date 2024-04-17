@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cracked_polished_blackstone_bricks"
+                    "name": "minecraft:oak_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cracked_polished_blackstone_bricks"
+    "random_sequence": "minecraft:blocks/oak_stairs"
 }

@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:rail"
+                    "conditions": [
+                        {
+                            "block": "minecraft:tnt",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "unstable": "false"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:tnt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/rail"
+    "random_sequence": "minecraft:blocks/tnt"
 }

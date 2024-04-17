@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blue_orchid"
+                    "name": "minecraft:big_dripleaf"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blue_orchid"
+    "random_sequence": "minecraft:blocks/big_dripleaf_stem"
 }

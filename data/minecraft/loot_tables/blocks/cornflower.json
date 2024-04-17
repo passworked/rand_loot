@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_diorite_stairs"
+                    "name": "minecraft:oak_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_diorite_stairs"
+    "random_sequence": "minecraft:blocks/oak_button"
 }

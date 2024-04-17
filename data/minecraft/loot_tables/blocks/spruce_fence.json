@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_polished_blackstone"
+                    "name": "minecraft:warped_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_polished_blackstone"
+    "random_sequence": "minecraft:blocks/warped_trapdoor"
 }

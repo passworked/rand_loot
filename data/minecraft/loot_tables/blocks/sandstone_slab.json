@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_terracotta"
+                    "name": "minecraft:prismarine"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_terracotta"
+    "random_sequence": "minecraft:blocks/prismarine"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_hanging_sign"
+                    "name": "minecraft:waxed_cut_copper_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_hanging_sign"
+    "random_sequence": "minecraft:blocks/waxed_cut_copper_stairs"
 }

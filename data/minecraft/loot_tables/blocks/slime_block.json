@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_sandstone_stairs"
+                    "name": "minecraft:emerald_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_sandstone_stairs"
+    "random_sequence": "minecraft:blocks/emerald_block"
 }

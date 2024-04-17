@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:prismarine_stairs"
+                    "name": "minecraft:warped_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/prismarine_stairs"
+    "random_sequence": "minecraft:blocks/warped_pressure_plate"
 }

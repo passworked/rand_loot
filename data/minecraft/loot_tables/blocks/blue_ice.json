@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_planks"
+                    "name": "minecraft:bamboo_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_planks"
+    "random_sequence": "minecraft:blocks/bamboo_fence"
 }

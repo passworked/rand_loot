@@ -3,34 +3,30 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flower_pot"
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 3.0,
+                                "p": 0.53333336
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:melon_seeds"
                 }
             ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
+            "functions": [
                 {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:warped_roots"
+                    "function": "minecraft:explosion_decay"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/potted_warped_roots"
+    "random_sequence": "minecraft:blocks/attached_melon_stem"
 }

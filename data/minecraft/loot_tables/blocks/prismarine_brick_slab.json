@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dried_kelp_block"
+                    "name": "minecraft:amethyst_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dried_kelp_block"
+    "random_sequence": "minecraft:blocks/amethyst_block"
 }

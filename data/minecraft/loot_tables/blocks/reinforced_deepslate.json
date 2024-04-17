@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wet_sponge"
+                    "name": "minecraft:acacia_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/wet_sponge"
+    "random_sequence": "minecraft:blocks/acacia_pressure_plate"
 }

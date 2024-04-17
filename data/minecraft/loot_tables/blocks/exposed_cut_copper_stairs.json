@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:black_bed",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "part": "head"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:black_bed"
+                    "name": "minecraft:redstone_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/black_bed"
+    "random_sequence": "minecraft:blocks/redstone_block"
 }

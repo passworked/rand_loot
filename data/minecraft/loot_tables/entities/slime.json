@@ -8,6 +8,15 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
                             "conditions": [
                                 {
                                     "condition": "minecraft:entity_properties",
@@ -20,29 +29,21 @@
                                 }
                             ],
                             "function": "minecraft:furnace_smelt"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:cod"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "chance": 0.05,
-                    "condition": "minecraft:random_chance"
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone_meal"
+                    "name": "minecraft:mutton"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/cod"
+    "random_sequence": "minecraft:entities/sheep"
 }

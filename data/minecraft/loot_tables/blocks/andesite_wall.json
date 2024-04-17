@@ -11,17 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
+                    "conditions": [
                         {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
+                            "block": "minecraft:purple_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
                         }
                     ],
-                    "name": "minecraft:furnace"
+                    "name": "minecraft:purple_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/furnace"
+    "random_sequence": "minecraft:blocks/purple_bed"
 }

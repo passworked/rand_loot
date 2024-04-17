@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:big_dripleaf"
+                    "name": "minecraft:lime_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/big_dripleaf"
+    "random_sequence": "minecraft:blocks/lime_concrete_powder"
 }

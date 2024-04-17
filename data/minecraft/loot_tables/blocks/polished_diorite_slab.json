@@ -1,21 +1,21 @@
 {
     "type": "minecraft:block",
-    "functions": [
-        {
-            "function": "minecraft:explosion_decay"
-        }
-    ],
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:torchflower_seeds"
+                    "name": "minecraft:oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/torchflower_crop"
+    "random_sequence": "minecraft:blocks/oak_wood"
 }

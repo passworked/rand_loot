@@ -6,55 +6,52 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:burn_pottery_sherd"
+                    "name": "minecraft:angler_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:danger_pottery_sherd"
+                    "name": "minecraft:shelter_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:friend_pottery_sherd"
+                    "name": "minecraft:snort_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heart_pottery_sherd"
+                    "name": "minecraft:sniffer_egg"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heartbreak_pottery_sherd"
+                    "name": "minecraft:iron_axe"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:howl_pottery_sherd"
+                    "name": "minecraft:emerald",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sheaf_pottery_sherd"
+                    "name": "minecraft:wheat",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wayfinder_armor_trim_smithing_template"
+                    "name": "minecraft:wooden_hoe",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:raiser_armor_trim_smithing_template"
+                    "name": "minecraft:coal",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:shaper_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:host_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_relic"
+                    "name": "minecraft:gold_nugget",
+                    "weight": 2
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+    "random_sequence": "minecraft:archaeology/ocean_ruin_warm"
 }

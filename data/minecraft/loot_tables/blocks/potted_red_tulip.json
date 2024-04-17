@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sandstone_wall"
+                    "name": "minecraft:polished_diorite_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sandstone_wall"
+    "random_sequence": "minecraft:blocks/polished_diorite_stairs"
 }

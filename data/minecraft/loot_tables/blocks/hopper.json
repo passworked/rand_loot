@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lily_of_the_valley"
+                    "name": "minecraft:pink_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lily_of_the_valley"
+    "random_sequence": "minecraft:blocks/pink_terracotta"
 }

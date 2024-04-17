@@ -21,11 +21,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:medium_amethyst_bud"
+                    "name": "minecraft:blue_stained_glass_pane"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/medium_amethyst_bud"
+    "random_sequence": "minecraft:blocks/blue_stained_glass_pane"
 }

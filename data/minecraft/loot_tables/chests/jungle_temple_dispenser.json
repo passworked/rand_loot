@@ -11,29 +11,13 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
+                                "max": 4.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:iron_ingot",
-                    "weight": 90
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:gold_ingot",
+                    "name": "minecraft:coal",
                     "weight": 10
                 },
                 {
@@ -43,59 +27,7 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:emerald",
-                    "weight": 40
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "weight": 5
-                }
-            ],
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
-            }
-        },
-        {
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 10.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:iron_nugget",
-                    "weight": 50
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 10.0,
+                                "max": 3.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
@@ -106,24 +38,28 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
                     "functions": [
                         {
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 10.0,
-                                "min": 1.0
+                                "max": 3.0,
+                                "min": 2.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:lapis_lazuli",
-                    "weight": 20
+                    "name": "minecraft:wheat",
+                    "weight": 10
                 }
             ],
             "rolls": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 8.0,
                 "min": 2.0
             }
         },
@@ -131,23 +67,59 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:empty",
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly"
+                        }
+                    ],
+                    "name": "minecraft:book",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly"
+                        }
+                    ],
+                    "name": "minecraft:fishing_rod",
                     "weight": 5
                 },
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "decoration": "red_x",
+                            "function": "minecraft:exploration_map",
+                            "skip_existing_chunks": false,
+                            "zoom": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "filled_map.buried_treasure"
+                            }
                         }
                     ],
-                    "name": "minecraft:coast_armor_trim_smithing_template"
+                    "name": "minecraft:map",
+                    "weight": 10
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/shipwreck_treasure"
+    "random_sequence": "minecraft:chests/underwater_ruin_big"
 }

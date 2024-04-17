@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lapis_block"
+                    "name": "minecraft:cherry_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lapis_block"
+    "random_sequence": "minecraft:blocks/cherry_button"
 }

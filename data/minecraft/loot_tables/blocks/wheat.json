@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:soul_sand"
+                    "name": "minecraft:green_carpet"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/soul_sand"
+    "random_sequence": "minecraft:blocks/green_carpet"
 }

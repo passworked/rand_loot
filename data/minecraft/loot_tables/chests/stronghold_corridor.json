@@ -6,40 +6,14 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "effects": [
-                                {
-                                    "type": "minecraft:night_vision",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 10.0,
-                                        "min": 7.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:blindness",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 7.0,
-                                        "min": 5.0
-                                    }
-                                }
-                            ],
-                            "function": "minecraft:set_stew_effect"
-                        },
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:suspicious_stew"
-                },
+                    "name": "minecraft:heart_of_the_sea"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
@@ -47,13 +21,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 10.0,
+                                "max": 4.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:golden_carrot"
+                    "name": "minecraft:iron_ingot",
+                    "weight": 20
                 },
                 {
                     "type": "minecraft:item",
@@ -62,13 +37,14 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 10.0,
+                                "max": 4.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:baked_potato"
+                    "name": "minecraft:gold_ingot",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -77,38 +53,154 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
+                                "max": 2.0,
+                                "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:packed_ice",
-                    "weight": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:snowball",
-                    "weight": 4
+                    "name": "minecraft:tnt",
+                    "weight": 5
                 }
             ],
             "rolls": {
                 "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 4.0
+                "max": 8.0,
+                "min": 5.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 8.0,
+                                "min": 4.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:emerald",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:diamond",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 5.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:prismarine_crystals",
+                    "weight": 5
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword"
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:cooked_cod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 2.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:cooked_salmon"
+                }
+            ],
+            "rolls": 2.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_potion",
+                    "id": "minecraft:water_breathing"
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
             }
         }
     ],
-    "random_sequence": "minecraft:chests/ancient_city_ice_box"
+    "random_sequence": "minecraft:chests/buried_treasure"
 }

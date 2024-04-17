@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:cyan_bed",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "part": "head"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:cyan_bed"
+                    "name": "minecraft:jungle_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cyan_bed"
+    "random_sequence": "minecraft:blocks/jungle_trapdoor"
 }

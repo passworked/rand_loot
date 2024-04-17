@@ -5,31 +5,41 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "add": false,
+                            "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "block": "minecraft:polished_blackstone_slab",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "type": "double"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "name": "minecraft:stone"
                         },
                         {
-                            "function": "minecraft:explosion_decay"
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "name": "minecraft:cobblestone"
                         }
-                    ],
-                    "name": "minecraft:polished_blackstone_slab"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_blackstone_slab"
+    "random_sequence": "minecraft:blocks/stone"
 }

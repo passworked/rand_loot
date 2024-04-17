@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_sign"
+                    "name": "minecraft:spruce_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_sign"
+    "random_sequence": "minecraft:blocks/spruce_sign"
 }

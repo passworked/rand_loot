@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:anvil"
+                    "name": "minecraft:allium"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/anvil"
+    "random_sequence": "minecraft:blocks/allium"
 }

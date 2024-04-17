@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:green_wool"
+                    "name": "minecraft:crafting_table"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/green_wool"
+    "random_sequence": "minecraft:blocks/crafting_table"
 }

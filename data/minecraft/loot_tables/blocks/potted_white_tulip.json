@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bell"
+                    "name": "minecraft:dark_oak_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bell"
+    "random_sequence": "minecraft:blocks/dark_oak_planks"
 }

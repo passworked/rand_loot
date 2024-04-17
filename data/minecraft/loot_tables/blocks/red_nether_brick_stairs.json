@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_button"
+                    "name": "minecraft:grindstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_button"
+    "random_sequence": "minecraft:blocks/grindstone"
 }

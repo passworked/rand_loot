@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pink_carpet"
+                    "name": "minecraft:pink_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_carpet"
+    "random_sequence": "minecraft:blocks/pink_wool"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cut_red_sandstone"
+                    "name": "minecraft:dead_tube_coral_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cut_red_sandstone"
+    "random_sequence": "minecraft:blocks/dead_tube_coral_block"
 }

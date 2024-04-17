@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_blue_wool"
+                    "name": "minecraft:soul_torch"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_blue_wool"
+    "random_sequence": "minecraft:blocks/soul_torch"
 }
