@@ -5,7 +5,7 @@ import random
 # 原始文件夹路径
 source_folder = r'./loot_tables'
 # 目标文件夹路径，确保这个文件夹可以被创建
-target_folder = r'./data/minecraft/loot_tables'
+target_folder = r'./rand_loot/data/minecraft/loot_tables'
 
 # 确保目标文件夹存在
 if os.path.exists(target_folder):
