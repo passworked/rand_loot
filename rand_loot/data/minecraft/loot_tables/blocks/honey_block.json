@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spore_blossom"
+                    "name": "minecraft:diorite"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spore_blossom"
+    "random_sequence": "minecraft:blocks/diorite"
 }

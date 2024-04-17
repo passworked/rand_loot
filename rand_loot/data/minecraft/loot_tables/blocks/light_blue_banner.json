@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flowering_azalea"
+                    "name": "minecraft:flower_pot"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/flowering_azalea"
+    "random_sequence": "minecraft:blocks/flower_pot"
 }

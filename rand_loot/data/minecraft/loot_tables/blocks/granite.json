@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dead_brain_coral_block"
+                    "name": "minecraft:granite_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dead_brain_coral_block"
+    "random_sequence": "minecraft:blocks/granite_stairs"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:white_wool"
+                    "name": "minecraft:orange_tulip"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/white_wool"
+    "random_sequence": "minecraft:blocks/orange_tulip"
 }

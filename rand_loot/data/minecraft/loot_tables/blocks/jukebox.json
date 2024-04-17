@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crying_obsidian"
+                    "name": "minecraft:black_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crying_obsidian"
+    "random_sequence": "minecraft:blocks/black_glazed_terracotta"
 }

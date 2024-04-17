@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobblestone"
+                    "name": "minecraft:oak_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cobblestone"
+    "random_sequence": "minecraft:blocks/oak_stairs"
 }

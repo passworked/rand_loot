@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_deepslate"
+                    "name": "minecraft:rooted_dirt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_deepslate"
+    "random_sequence": "minecraft:blocks/rooted_dirt"
 }

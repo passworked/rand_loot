@@ -11,11 +11,28 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smooth_red_sandstone"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Patterns",
+                                    "target": "BlockEntityTag.Patterns"
+                                }
+                            ],
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:magenta_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_red_sandstone"
+    "random_sequence": "minecraft:blocks/magenta_banner"
 }

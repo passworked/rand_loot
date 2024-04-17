@@ -3,28 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:warped_door",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:warped_door"
+                    "name": "minecraft:zombie_head"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_door"
+    "random_sequence": "minecraft:blocks/zombie_head"
 }

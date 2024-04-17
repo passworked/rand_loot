@@ -11,11 +11,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_brick_fence"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:chest"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_brick_fence"
+    "random_sequence": "minecraft:blocks/chest"
 }

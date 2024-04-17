@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo_trapdoor"
+                    "name": "minecraft:bell"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo_trapdoor"
+    "random_sequence": "minecraft:blocks/bell"
 }

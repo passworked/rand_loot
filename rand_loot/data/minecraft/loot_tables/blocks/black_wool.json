@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobbled_deepslate_wall"
+                    "name": "minecraft:obsidian"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cobbled_deepslate_wall"
+    "random_sequence": "minecraft:blocks/obsidian"
 }

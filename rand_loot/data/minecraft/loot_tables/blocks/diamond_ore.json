@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_fence"
+                    "name": "minecraft:end_stone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_fence"
+    "random_sequence": "minecraft:blocks/end_stone"
 }

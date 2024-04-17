@@ -11,17 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:dropper"
+                    "name": "minecraft:polished_blackstone_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dropper"
+    "random_sequence": "minecraft:blocks/polished_blackstone_button"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:light_gray_carpet"
+                    "name": "minecraft:mangrove_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/light_gray_carpet"
+    "random_sequence": "minecraft:blocks/mangrove_button"
 }

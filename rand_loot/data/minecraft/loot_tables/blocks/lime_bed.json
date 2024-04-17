@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_terracotta"
+                    "name": "minecraft:target"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_terracotta"
+    "random_sequence": "minecraft:blocks/target"
 }

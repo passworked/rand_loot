@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_wood"
+                    "name": "minecraft:lime_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_wood"
+    "random_sequence": "minecraft:blocks/lime_concrete"
 }

@@ -5,36 +5,58 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "function": "minecraft:explosion_decay"
+                            "type": "minecraft:dynamic",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "tag": "minecraft:breaks_decorated_pots"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:match_tool",
+                                        "predicate": {
+                                            "enchantments": [
+                                                {
+                                                    "enchantment": "minecraft:silk_touch",
+                                                    "levels": {
+                                                        "min": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:sherds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "functions": [
+                                {
+                                    "function": "minecraft:copy_nbt",
+                                    "ops": [
+                                        {
+                                            "op": "replace",
+                                            "source": "sherds",
+                                            "target": "BlockEntityTag.sherds"
+                                        }
+                                    ],
+                                    "source": "block_entity"
+                                }
+                            ],
+                            "name": "minecraft:decorated_pot"
                         }
-                    ],
-                    "name": "minecraft:composter"
-                }
-            ],
-            "rolls": 1.0
-        },
-        {
-            "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "block": "minecraft:composter",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                        "level": "8"
-                    }
-                }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone_meal"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/composter"
+    "random_sequence": "minecraft:blocks/decorated_pot"
 }

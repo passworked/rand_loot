@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:netherite_block"
+                    "name": "minecraft:repeater"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/netherite_block"
+    "random_sequence": "minecraft:blocks/repeater"
 }

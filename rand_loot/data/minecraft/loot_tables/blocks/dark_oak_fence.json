@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spruce_fence_gate"
+                    "name": "minecraft:jungle_pressure_plate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/spruce_fence_gate"
+    "random_sequence": "minecraft:blocks/jungle_pressure_plate"
 }

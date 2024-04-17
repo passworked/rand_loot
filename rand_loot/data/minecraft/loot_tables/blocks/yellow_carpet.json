@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oak_log"
+                    "name": "minecraft:stripped_crimson_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_log"
+    "random_sequence": "minecraft:blocks/stripped_crimson_hyphae"
 }

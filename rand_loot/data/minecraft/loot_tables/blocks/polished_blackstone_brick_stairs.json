@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone_button"
+                    "name": "minecraft:polished_blackstone_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stone_button"
+    "random_sequence": "minecraft:blocks/polished_blackstone_brick_wall"
 }

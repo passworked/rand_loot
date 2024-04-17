@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:allium"
+                    "name": "minecraft:pumpkin"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/allium"
+    "random_sequence": "minecraft:blocks/pumpkin"
 }

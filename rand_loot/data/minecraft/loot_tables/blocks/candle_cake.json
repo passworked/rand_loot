@@ -11,24 +11,10 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:pink_petals",
+                                    "block": "minecraft:brick_slab",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
-                                        "flower_amount": "1"
-                                    }
-                                }
-                            ],
-                            "count": 1.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pink_petals",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "flower_amount": "2"
+                                        "type": "double"
                                     }
                                 }
                             ],
@@ -36,42 +22,14 @@
                             "function": "minecraft:set_count"
                         },
                         {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pink_petals",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "flower_amount": "3"
-                                    }
-                                }
-                            ],
-                            "count": 3.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "add": false,
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pink_petals",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "flower_amount": "4"
-                                    }
-                                }
-                            ],
-                            "count": 4.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
                             "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:pink_petals"
+                    "name": "minecraft:brick_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_petals"
+    "random_sequence": "minecraft:blocks/brick_slab"
 }

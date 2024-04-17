@@ -5,22 +5,17 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "items": [
-                            "minecraft:shears"
-                        ]
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:small_dripleaf"
+                    "name": "minecraft:green_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/small_dripleaf"
+    "random_sequence": "minecraft:blocks/green_wool"
 }

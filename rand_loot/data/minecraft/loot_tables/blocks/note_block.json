@@ -24,7 +24,7 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:redstone_ore"
+                            "name": "minecraft:deepslate_redstone_ore"
                         },
                         {
                             "type": "minecraft:item",
@@ -58,5 +58,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/redstone_ore"
+    "random_sequence": "minecraft:blocks/deepslate_redstone_ore"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_stairs"
+                    "name": "minecraft:white_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_stairs"
+    "random_sequence": "minecraft:blocks/white_glazed_terracotta"
 }

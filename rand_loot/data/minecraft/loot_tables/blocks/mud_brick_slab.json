@@ -3,43 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
-                            "name": "minecraft:deepslate"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:survives_explosion"
-                                }
-                            ],
-                            "name": "minecraft:cobbled_deepslate"
-                        }
-                    ]
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/deepslate"
+    "random_sequence": "minecraft:blocks/cyan_glazed_terracotta"
 }

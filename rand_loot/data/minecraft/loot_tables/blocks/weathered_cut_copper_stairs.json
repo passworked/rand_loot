@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:deepslate_tile_stairs"
+                    "name": "minecraft:spruce_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/deepslate_tile_stairs"
+    "random_sequence": "minecraft:blocks/spruce_fence"
 }

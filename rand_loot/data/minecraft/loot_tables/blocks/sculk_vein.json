@@ -3,19 +3,24 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:note_block"
+                    "conditions": [
+                        {
+                            "condition": "minecraft:survives_explosion"
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {}
+                        }
+                    ],
+                    "name": "minecraft:chorus_flower"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/note_block"
+    "random_sequence": "minecraft:blocks/chorus_flower"
 }

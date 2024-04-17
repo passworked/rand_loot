@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_copper_block"
+                    "name": "minecraft:light_blue_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_copper_block"
+    "random_sequence": "minecraft:blocks/light_blue_wool"
 }

@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purple_concrete_powder"
+                    "conditions": [
+                        {
+                            "block": "minecraft:rose_bush",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:rose_bush"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_concrete_powder"
+    "random_sequence": "minecraft:blocks/rose_bush"
 }

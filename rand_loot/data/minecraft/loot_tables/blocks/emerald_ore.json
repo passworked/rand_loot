@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:torch"
+                    "name": "minecraft:sponge"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/torch"
+    "random_sequence": "minecraft:blocks/sponge"
 }

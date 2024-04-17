@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_oak_log"
+                    "name": "minecraft:white_concrete_powder"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_oak_log"
+    "random_sequence": "minecraft:blocks/white_concrete_powder"
 }

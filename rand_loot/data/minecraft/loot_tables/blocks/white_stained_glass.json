@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cut_sandstone"
+                    "name": "minecraft:oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cut_sandstone"
+    "random_sequence": "minecraft:blocks/oak_wood"
 }

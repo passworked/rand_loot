@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_roots"
+                    "name": "minecraft:verdant_froglight"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_roots"
+    "random_sequence": "minecraft:blocks/verdant_froglight"
 }

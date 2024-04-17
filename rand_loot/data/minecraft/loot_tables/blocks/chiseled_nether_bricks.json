@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purple_concrete"
+                    "name": "minecraft:cracked_nether_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_concrete"
+    "random_sequence": "minecraft:blocks/cracked_nether_bricks"
 }

@@ -3,14 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_candle"
+                    "name": "minecraft:diorite_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_candle_cake"
+    "random_sequence": "minecraft:blocks/diorite_stairs"
 }

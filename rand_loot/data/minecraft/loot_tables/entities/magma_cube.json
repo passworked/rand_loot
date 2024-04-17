@@ -3,11 +3,6 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -16,8 +11,8 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
-                                "min": 0.0
+                                "max": 3.0,
+                                "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         },
@@ -30,11 +25,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:emerald"
+                    "name": "minecraft:rotten_flesh"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/vindicator"
+    "random_sequence": "minecraft:entities/zoglin"
 }

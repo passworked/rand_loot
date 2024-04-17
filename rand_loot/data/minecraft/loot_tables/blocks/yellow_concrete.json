@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_polished_blackstone"
+                    "name": "minecraft:jungle_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_polished_blackstone"
+    "random_sequence": "minecraft:blocks/jungle_planks"
 }

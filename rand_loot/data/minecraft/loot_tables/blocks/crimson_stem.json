@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:orange_wool"
+                    "name": "minecraft:dirt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/orange_wool"
+    "random_sequence": "minecraft:blocks/dirt"
 }

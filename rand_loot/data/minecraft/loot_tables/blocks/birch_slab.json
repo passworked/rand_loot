@@ -5,27 +5,17 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
-                            }
-                        ]
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glass_pane"
+                    "name": "minecraft:mangrove_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/glass_pane"
+    "random_sequence": "minecraft:blocks/mangrove_fence"
 }

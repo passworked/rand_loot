@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_trapdoor"
+                    "name": "minecraft:mossy_cobblestone_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_trapdoor"
+    "random_sequence": "minecraft:blocks/mossy_cobblestone_wall"
 }

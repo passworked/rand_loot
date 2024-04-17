@@ -11,11 +11,26 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cut_red_sandstone"
+                    "name": "minecraft:flower_pot"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_rose"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cut_red_sandstone"
+    "random_sequence": "minecraft:blocks/potted_wither_rose"
 }

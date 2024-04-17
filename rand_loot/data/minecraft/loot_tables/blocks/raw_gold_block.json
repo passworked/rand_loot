@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crafting_table"
+                    "name": "minecraft:dark_oak_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crafting_table"
+    "random_sequence": "minecraft:blocks/dark_oak_button"
 }

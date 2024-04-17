@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_pressure_plate"
+                    "conditions": [
+                        {
+                            "block": "minecraft:cyan_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:cyan_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_pressure_plate"
+    "random_sequence": "minecraft:blocks/cyan_bed"
 }

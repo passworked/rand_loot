@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_red_sandstone"
+                    "name": "minecraft:oak_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_red_sandstone"
+    "random_sequence": "minecraft:blocks/oak_planks"
 }

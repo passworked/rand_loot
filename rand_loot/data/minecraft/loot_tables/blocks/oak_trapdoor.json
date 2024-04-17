@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_wart_block"
+                    "name": "minecraft:green_concrete"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_wart_block"
+    "random_sequence": "minecraft:blocks/green_concrete"
 }

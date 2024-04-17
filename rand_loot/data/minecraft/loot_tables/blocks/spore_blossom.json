@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_prismarine_stairs"
+                    "name": "minecraft:end_stone_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_prismarine_stairs"
+    "random_sequence": "minecraft:blocks/end_stone_bricks"
 }

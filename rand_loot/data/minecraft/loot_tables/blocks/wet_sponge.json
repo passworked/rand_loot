@@ -3,28 +3,51 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
+                    "functions": [
                         {
-                            "block": "minecraft:green_bed",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "part": "head"
-                            }
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Lock",
+                                    "target": "BlockEntityTag.Lock"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTable",
+                                    "target": "BlockEntityTag.LootTable"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTableSeed",
+                                    "target": "BlockEntityTag.LootTableSeed"
+                                }
+                            ],
+                            "source": "block_entity"
+                        },
+                        {
+                            "type": "minecraft:shulker_box",
+                            "entries": [
+                                {
+                                    "type": "minecraft:dynamic",
+                                    "name": "minecraft:contents"
+                                }
+                            ],
+                            "function": "minecraft:set_contents"
                         }
                     ],
-                    "name": "minecraft:green_bed"
+                    "name": "minecraft:shulker_box"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/green_bed"
+    "random_sequence": "minecraft:blocks/shulker_box"
 }

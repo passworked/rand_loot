@@ -3,19 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:big_dripleaf"
+                    "name": "minecraft:orange_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/big_dripleaf"
+    "random_sequence": "minecraft:blocks/orange_candle_cake"
 }

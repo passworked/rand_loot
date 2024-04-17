@@ -6,55 +6,88 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:burn_pottery_sherd"
+                    "name": "minecraft:arms_up_pottery_sherd",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:danger_pottery_sherd"
+                    "name": "minecraft:brewer_pottery_sherd",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:friend_pottery_sherd"
+                    "name": "minecraft:brick"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heart_pottery_sherd"
+                    "name": "minecraft:emerald"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:heartbreak_pottery_sherd"
+                    "name": "minecraft:stick"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:howl_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:sheaf_pottery_sherd"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wayfinder_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raiser_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:shaper_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:host_armor_trim_smithing_template"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_relic"
+                    "functions": [
+                        {
+                            "effects": [
+                                {
+                                    "type": "minecraft:night_vision",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 10.0,
+                                        "min": 7.0
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:jump_boost",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 10.0,
+                                        "min": 7.0
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:weakness",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 8.0,
+                                        "min": 6.0
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:blindness",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 7.0,
+                                        "min": 5.0
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:poison",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 20.0,
+                                        "min": 10.0
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:saturation",
+                                    "duration": {
+                                        "type": "minecraft:uniform",
+                                        "max": 10.0,
+                                        "min": 7.0
+                                    }
+                                }
+                            ],
+                            "function": "minecraft:set_stew_effect"
+                        }
+                    ],
+                    "name": "minecraft:suspicious_stew"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+    "random_sequence": "minecraft:archaeology/desert_well"
 }

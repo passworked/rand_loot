@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_block"
+                    "name": "minecraft:jungle_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/copper_block"
+    "random_sequence": "minecraft:blocks/jungle_button"
 }

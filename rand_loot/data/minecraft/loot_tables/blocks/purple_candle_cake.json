@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:kelp"
+                    "name": "minecraft:end_stone_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/kelp"
+    "random_sequence": "minecraft:blocks/end_stone_brick_wall"
 }

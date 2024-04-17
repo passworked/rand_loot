@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sniffer_egg"
+                    "name": "minecraft:warped_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sniffer_egg"
+    "random_sequence": "minecraft:blocks/warped_hanging_sign"
 }

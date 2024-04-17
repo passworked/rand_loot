@@ -13,18 +13,18 @@
                     "type": "minecraft:item",
                     "conditions": [
                         {
-                            "block": "minecraft:oak_door",
+                            "block": "minecraft:red_bed",
                             "condition": "minecraft:block_state_property",
                             "properties": {
-                                "half": "lower"
+                                "part": "head"
                             }
                         }
                     ],
-                    "name": "minecraft:oak_door"
+                    "name": "minecraft:red_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_door"
+    "random_sequence": "minecraft:blocks/red_bed"
 }

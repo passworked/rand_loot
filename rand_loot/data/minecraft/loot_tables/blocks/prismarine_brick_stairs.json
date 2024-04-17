@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pink_concrete"
+                    "name": "minecraft:magma_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_concrete"
+    "random_sequence": "minecraft:blocks/magma_block"
 }

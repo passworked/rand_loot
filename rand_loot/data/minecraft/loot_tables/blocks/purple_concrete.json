@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_wood"
+                    "name": "minecraft:dead_tube_coral_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_wood"
+    "random_sequence": "minecraft:blocks/dead_tube_coral_block"
 }

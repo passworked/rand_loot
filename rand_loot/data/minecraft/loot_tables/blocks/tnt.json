@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purple_terracotta"
+                    "name": "minecraft:honeycomb_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_terracotta"
+    "random_sequence": "minecraft:blocks/honeycomb_block"
 }

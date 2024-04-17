@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_stairs"
+                    "name": "minecraft:coarse_dirt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_stairs"
+    "random_sequence": "minecraft:blocks/coarse_dirt"
 }

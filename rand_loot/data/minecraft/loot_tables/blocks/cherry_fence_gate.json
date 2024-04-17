@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_sign"
+                    "name": "minecraft:iron_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_sign"
+    "random_sequence": "minecraft:blocks/iron_block"
 }

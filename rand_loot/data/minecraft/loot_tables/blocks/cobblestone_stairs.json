@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gray_glazed_terracotta"
+                    "conditions": [
+                        {
+                            "block": "minecraft:light_blue_bed",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "part": "head"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_blue_bed"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/gray_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/light_blue_bed"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_stairs"
+                    "name": "minecraft:deepslate_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_stairs"
+    "random_sequence": "minecraft:blocks/deepslate_brick_wall"
 }

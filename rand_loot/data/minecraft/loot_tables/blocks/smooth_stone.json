@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_log"
+                    "name": "minecraft:dark_oak_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_log"
+    "random_sequence": "minecraft:blocks/dark_oak_sign"
 }

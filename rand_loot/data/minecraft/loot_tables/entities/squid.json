@@ -6,11 +6,18 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sculk_catalyst"
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 1.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:saddle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/warden"
+    "random_sequence": "minecraft:entities/ravager"
 }

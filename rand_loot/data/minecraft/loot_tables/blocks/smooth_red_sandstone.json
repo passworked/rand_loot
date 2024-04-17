@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mossy_cobblestone_stairs"
+                    "name": "minecraft:bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mossy_cobblestone_stairs"
+    "random_sequence": "minecraft:blocks/bricks"
 }

@@ -11,28 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        },
-                        {
-                            "function": "minecraft:copy_nbt",
-                            "ops": [
-                                {
-                                    "op": "replace",
-                                    "source": "Patterns",
-                                    "target": "BlockEntityTag.Patterns"
-                                }
-                            ],
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:brown_banner"
+                    "name": "minecraft:nether_brick_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_banner"
+    "random_sequence": "minecraft:blocks/nether_brick_stairs"
 }

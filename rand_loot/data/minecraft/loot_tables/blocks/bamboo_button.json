@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_oxidized_copper"
+                    "name": "minecraft:activator_rail"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_oxidized_copper"
+    "random_sequence": "minecraft:blocks/activator_rail"
 }

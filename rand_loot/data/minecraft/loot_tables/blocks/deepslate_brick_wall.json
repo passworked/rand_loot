@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:end_stone_bricks"
+                    "conditions": [
+                        {
+                            "block": "minecraft:lilac",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:lilac"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/end_stone_bricks"
+    "random_sequence": "minecraft:blocks/lilac"
 }

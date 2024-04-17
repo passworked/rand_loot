@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:acacia_fence"
+                    "name": "minecraft:blue_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/acacia_fence"
+    "random_sequence": "minecraft:blocks/blue_terracotta"
 }

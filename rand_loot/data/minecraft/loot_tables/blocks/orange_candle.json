@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_quartz_block"
+                    "name": "minecraft:cut_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/chiseled_quartz_block"
+    "random_sequence": "minecraft:blocks/cut_sandstone"
 }

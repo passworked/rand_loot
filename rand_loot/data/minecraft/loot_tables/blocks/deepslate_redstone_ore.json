@@ -11,7 +11,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:cherry_slab",
+                                    "block": "minecraft:jungle_slab",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "type": "double"
@@ -25,11 +25,11 @@
                             "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:cherry_slab"
+                    "name": "minecraft:jungle_slab"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_slab"
+    "random_sequence": "minecraft:blocks/jungle_slab"
 }

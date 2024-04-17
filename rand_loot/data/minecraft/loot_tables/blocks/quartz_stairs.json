@@ -3,49 +3,43 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
-                            }
-                        ]
-                    }
-                }
-            ],
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "function": "minecraft:copy_nbt",
-                            "ops": [
+                            "type": "minecraft:item",
+                            "conditions": [
                                 {
-                                    "op": "replace",
-                                    "source": "Bees",
-                                    "target": "BlockEntityTag.Bees"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
                                 }
                             ],
-                            "source": "block_entity"
+                            "name": "minecraft:crimson_nylium"
                         },
                         {
-                            "block": "minecraft:bee_nest",
-                            "function": "minecraft:copy_state",
-                            "properties": [
-                                "honey_level"
-                            ]
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ],
+                            "name": "minecraft:netherrack"
                         }
-                    ],
-                    "name": "minecraft:bee_nest"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bee_nest"
+    "random_sequence": "minecraft:blocks/crimson_nylium"
 }

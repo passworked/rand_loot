@@ -3,19 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cauldron"
+                    "name": "minecraft:creeper_head"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/powder_snow_cauldron"
+    "random_sequence": "minecraft:blocks/creeper_head"
 }

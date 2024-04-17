@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purple_glazed_terracotta"
+                    "name": "minecraft:redstone_lamp"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_glazed_terracotta"
+    "random_sequence": "minecraft:blocks/redstone_lamp"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:crimson_fence_gate"
+                    "name": "minecraft:acacia_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/crimson_fence_gate"
+    "random_sequence": "minecraft:blocks/acacia_hanging_sign"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brick_stairs"
+                    "name": "minecraft:light_gray_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brick_stairs"
+    "random_sequence": "minecraft:blocks/light_gray_terracotta"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_andesite"
+                    "name": "minecraft:black_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_andesite"
+    "random_sequence": "minecraft:blocks/black_wool"
 }

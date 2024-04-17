@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_pressure_plate"
+                    "name": "minecraft:chiseled_quartz_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_pressure_plate"
+    "random_sequence": "minecraft:blocks/chiseled_quartz_block"
 }

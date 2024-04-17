@@ -3,28 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:sunflower",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:sunflower"
+                    "name": "minecraft:white_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sunflower"
+    "random_sequence": "minecraft:blocks/white_candle_cake"
 }

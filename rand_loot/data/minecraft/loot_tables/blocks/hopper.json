@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pink_terracotta"
+                    "name": "minecraft:calcite"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pink_terracotta"
+    "random_sequence": "minecraft:blocks/calcite"
 }

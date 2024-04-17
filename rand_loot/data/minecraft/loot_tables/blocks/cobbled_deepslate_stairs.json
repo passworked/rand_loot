@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:oak_hanging_sign"
+                    "name": "minecraft:crimson_hyphae"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/oak_hanging_sign"
+    "random_sequence": "minecraft:blocks/crimson_hyphae"
 }

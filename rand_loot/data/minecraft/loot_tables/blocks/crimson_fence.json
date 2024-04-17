@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bone_block"
+                    "name": "minecraft:yellow_glazed_terracotta"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bone_block"
+    "random_sequence": "minecraft:blocks/yellow_glazed_terracotta"
 }

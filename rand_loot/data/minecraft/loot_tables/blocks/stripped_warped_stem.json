@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:purpur_pillar"
+                    "name": "minecraft:acacia_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purpur_pillar"
+    "random_sequence": "minecraft:blocks/acacia_button"
 }

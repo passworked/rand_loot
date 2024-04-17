@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:waxed_cut_copper_stairs"
+                    "name": "minecraft:smooth_basalt"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/waxed_cut_copper_stairs"
+    "random_sequence": "minecraft:blocks/smooth_basalt"
 }

@@ -11,234 +11,29 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 12.0,
+                                "max": 2.0,
                                 "min": 1.0
                             },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:paper",
-                    "weight": 8
+                    "name": "minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_otherside"
                 },
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
                             "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
-                            },
+                            "count": 1.0,
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:potato",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 4.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:moss_block",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 6.0,
-                                "min": 2.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:poisonous_potato",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 8.0,
-                                "min": 4.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:carrot",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 21.0,
-                                "min": 8.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:wheat",
-                    "weight": 7
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "effects": [
-                                {
-                                    "type": "minecraft:night_vision",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 10.0,
-                                        "min": 7.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:jump_boost",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 10.0,
-                                        "min": 7.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:weakness",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 8.0,
-                                        "min": 6.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:blindness",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 7.0,
-                                        "min": 5.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:poison",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 20.0,
-                                        "min": 10.0
-                                    }
-                                },
-                                {
-                                    "type": "minecraft:saturation",
-                                    "duration": {
-                                        "type": "minecraft:uniform",
-                                        "max": 10.0,
-                                        "min": 7.0
-                                    }
-                                }
-                            ],
-                            "function": "minecraft:set_stew_effect"
-                        }
-                    ],
-                    "name": "minecraft:suspicious_stew",
-                    "weight": 10
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 8.0,
-                                "min": 2.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:coal",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 24.0,
-                                "min": 5.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:pumpkin",
+                    "name": "minecraft:compass",
                     "weight": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 3.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:bamboo",
-                    "weight": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "add": false,
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "max": 5.0,
-                                "min": 1.0
-                            },
-                            "function": "minecraft:set_count"
-                        }
-                    ],
-                    "name": "minecraft:gunpowder",
-                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
@@ -253,7 +48,282 @@
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:tnt"
+                    "name": "minecraft:sculk_catalyst",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:name_tag",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 1.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "add": false,
+                            "damage": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.8
+                            },
+                            "function": "minecraft:set_damage"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "max": 50.0,
+                                "min": 30.0
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 1.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:lead",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 1.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 1.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:saddle",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "max": 50.0,
+                                "min": 30.0
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "enchantments": [
+                                "minecraft:swift_sneak"
+                            ],
+                            "function": "minecraft:enchant_randomly"
+                        }
+                    ],
+                    "name": "minecraft:book",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 10.0,
+                                "min": 4.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:sculk",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:sculk_sensor",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:candle",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 15.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:experience_bottle",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 15.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:glow_berries",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "type": "minecraft:uniform",
+                                "max": 39.0,
+                                "min": 20.0
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:echo_shard",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:disc_fragment_5",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 3.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:strong_regeneration"
+                        }
+                    ],
+                    "name": "minecraft:potion",
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:item",
@@ -262,51 +332,7 @@
                             "function": "minecraft:enchant_randomly"
                         }
                     ],
-                    "name": "minecraft:leather_helmet",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:leather_chestplate",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:leather_leggings",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_randomly"
-                        }
-                    ],
-                    "name": "minecraft:leather_boots",
-                    "weight": 3
-                }
-            ],
-            "rolls": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 3.0
-            }
-        },
-        {
-            "bonus_rolls": 0.0,
-            "entries": [
-                {
-                    "type": "minecraft:empty",
+                    "name": "minecraft:book",
                     "weight": 5
                 },
                 {
@@ -314,15 +340,91 @@
                     "functions": [
                         {
                             "add": false,
-                            "count": 2.0,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 10.0,
+                                "min": 3.0
+                            },
                             "function": "minecraft:set_count"
                         }
                     ],
-                    "name": "minecraft:coast_armor_trim_smithing_template"
+                    "name": "minecraft:book",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 15.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:bone",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 15.0,
+                                "min": 1.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:soul_torch",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 15.0,
+                                "min": 6.0
+                            },
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:coal",
+                    "weight": 7
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 5.0
+            }
+        },
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:empty",
+                    "weight": 75
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ward_armor_trim_smithing_template",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:silence_armor_trim_smithing_template"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:chests/shipwreck_supply"
+    "random_sequence": "minecraft:chests/ancient_city"
 }

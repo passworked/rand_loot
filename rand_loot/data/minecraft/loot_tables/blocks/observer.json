@@ -3,19 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dirt"
+                    "name": "minecraft:candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dirt_path"
+    "random_sequence": "minecraft:blocks/candle_cake"
 }

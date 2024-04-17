@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:bamboo_hanging_sign"
+                    "name": "minecraft:stone_brick_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/bamboo_hanging_sign"
+    "random_sequence": "minecraft:blocks/stone_brick_stairs"
 }

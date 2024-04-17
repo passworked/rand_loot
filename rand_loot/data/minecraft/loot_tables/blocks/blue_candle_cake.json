@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:prismarine_brick_stairs"
+                    "name": "minecraft:spruce_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/prismarine_brick_stairs"
+    "random_sequence": "minecraft:blocks/spruce_stairs"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gray_carpet"
+                    "name": "minecraft:stone_button"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/gray_carpet"
+    "random_sequence": "minecraft:blocks/stone_button"
 }

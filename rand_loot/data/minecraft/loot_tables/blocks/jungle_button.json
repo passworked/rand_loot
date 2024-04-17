@@ -11,20 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:mangrove_door",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:mangrove_door"
+                    "name": "minecraft:stripped_spruce_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_door"
+    "random_sequence": "minecraft:blocks/stripped_spruce_wood"
 }

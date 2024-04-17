@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:sugar_cane"
+                    "name": "minecraft:orange_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/sugar_cane"
+    "random_sequence": "minecraft:blocks/orange_wool"
 }

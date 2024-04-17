@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_oak_wood"
+                    "name": "minecraft:spruce_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_oak_wood"
+    "random_sequence": "minecraft:blocks/spruce_trapdoor"
 }

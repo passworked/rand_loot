@@ -5,27 +5,26 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
-                            }
-                        ]
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chiseled_stone_bricks"
+                    "conditions": [
+                        {
+                            "block": "minecraft:warped_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:warped_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/infested_chiseled_stone_bricks"
+    "random_sequence": "minecraft:blocks/warped_door"
 }

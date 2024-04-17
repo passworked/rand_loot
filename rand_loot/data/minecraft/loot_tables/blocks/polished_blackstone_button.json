@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:shroomlight"
+                    "name": "minecraft:dark_oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/shroomlight"
+    "random_sequence": "minecraft:blocks/dark_oak_wood"
 }

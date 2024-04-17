@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lectern"
+                    "name": "minecraft:dead_brain_coral_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lectern"
+    "random_sequence": "minecraft:blocks/dead_brain_coral_block"
 }

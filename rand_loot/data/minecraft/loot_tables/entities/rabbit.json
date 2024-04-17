@@ -25,7 +25,8 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:rotten_flesh"
+                    "name": "minecraft:seagrass",
+                    "weight": 3
                 }
             ],
             "rolls": 1.0
@@ -34,46 +35,25 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:killed_by_player"
-                },
-                {
-                    "chance": 0.025,
-                    "condition": "minecraft:random_chance_with_looting",
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_lightning"
+                            }
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_ingot"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot"
-                },
-                {
-                    "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "flags": {
-                                            "is_on_fire": true
-                                        }
-                                    }
-                                }
-                            ],
-                            "function": "minecraft:furnace_smelt"
-                        }
-                    ],
-                    "name": "minecraft:potato"
+                    "name": "minecraft:bowl"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/zombie_villager"
+    "random_sequence": "minecraft:entities/turtle"
 }

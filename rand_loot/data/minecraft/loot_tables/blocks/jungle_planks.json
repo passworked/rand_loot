@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cyan_terracotta"
+                    "name": "minecraft:acacia_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cyan_terracotta"
+    "random_sequence": "minecraft:blocks/acacia_wood"
 }

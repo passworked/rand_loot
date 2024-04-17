@@ -21,11 +21,31 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobblestone"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Bees",
+                                    "target": "BlockEntityTag.Bees"
+                                }
+                            ],
+                            "source": "block_entity"
+                        },
+                        {
+                            "block": "minecraft:bee_nest",
+                            "function": "minecraft:copy_state",
+                            "properties": [
+                                "honey_level"
+                            ]
+                        }
+                    ],
+                    "name": "minecraft:bee_nest"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/infested_cobblestone"
+    "random_sequence": "minecraft:blocks/bee_nest"
 }

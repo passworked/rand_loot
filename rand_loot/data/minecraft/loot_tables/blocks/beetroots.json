@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lime_concrete"
+                    "name": "minecraft:dandelion"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lime_concrete"
+    "random_sequence": "minecraft:blocks/dandelion"
 }

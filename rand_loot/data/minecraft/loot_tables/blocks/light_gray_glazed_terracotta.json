@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_button"
+                    "name": "minecraft:quartz_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_button"
+    "random_sequence": "minecraft:blocks/quartz_block"
 }

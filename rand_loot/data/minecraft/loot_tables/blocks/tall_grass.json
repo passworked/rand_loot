@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:azure_bluet"
+                    "name": "minecraft:chiseled_polished_blackstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/azure_bluet"
+    "random_sequence": "minecraft:blocks/chiseled_polished_blackstone"
 }

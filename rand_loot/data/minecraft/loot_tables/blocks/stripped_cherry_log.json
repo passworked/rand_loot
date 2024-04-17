@@ -11,11 +11,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blackstone_wall"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:smoker"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blackstone_wall"
+    "random_sequence": "minecraft:blocks/smoker"
 }

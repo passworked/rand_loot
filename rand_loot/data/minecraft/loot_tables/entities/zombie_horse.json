@@ -3,11 +3,6 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:killed_by_player"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -16,7 +11,7 @@
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "max": 1.0,
+                                "max": 2.0,
                                 "min": 0.0
                             },
                             "function": "minecraft:set_count"
@@ -30,11 +25,11 @@
                             "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:blaze_rod"
+                    "name": "minecraft:bone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/blaze"
+    "random_sequence": "minecraft:entities/skeleton_horse"
 }

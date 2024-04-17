@@ -5,41 +5,49 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:alternatives",
-                    "children": [
+                    "type": "minecraft:item",
+                    "functions": [
                         {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
-                            "name": "minecraft:warped_nylium"
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
                         },
                         {
-                            "type": "minecraft:item",
-                            "conditions": [
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
                                 {
-                                    "condition": "minecraft:survives_explosion"
+                                    "op": "replace",
+                                    "source": "Lock",
+                                    "target": "BlockEntityTag.Lock"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTable",
+                                    "target": "BlockEntityTag.LootTable"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "LootTableSeed",
+                                    "target": "BlockEntityTag.LootTableSeed"
                                 }
                             ],
-                            "name": "minecraft:netherrack"
+                            "source": "block_entity"
+                        },
+                        {
+                            "type": "minecraft:shulker_box",
+                            "entries": [
+                                {
+                                    "type": "minecraft:dynamic",
+                                    "name": "minecraft:contents"
+                                }
+                            ],
+                            "function": "minecraft:set_contents"
                         }
-                    ]
+                    ],
+                    "name": "minecraft:brown_shulker_box"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_nylium"
+    "random_sequence": "minecraft:blocks/brown_shulker_box"
 }

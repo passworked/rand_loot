@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_jungle_log"
+                    "name": "minecraft:deepslate_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_jungle_log"
+    "random_sequence": "minecraft:blocks/deepslate_bricks"
 }

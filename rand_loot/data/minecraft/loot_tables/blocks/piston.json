@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stripped_mangrove_wood"
+                    "name": "minecraft:bamboo_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/stripped_mangrove_wood"
+    "random_sequence": "minecraft:blocks/bamboo_block"
 }

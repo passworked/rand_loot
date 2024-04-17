@@ -10,8 +10,14 @@ target_folder = r'./rand_loot/data/minecraft/loot_tables'
 
 # 确保目标文件夹存在，如果存在则清空内容
 if os.path.exists(target_folder):
-    shutil.rmtree(target_folder)
-os.makedirs(target_folder)
+    for root, dirs, files in os.walk(target_folder, topdown=False):
+        for file in files:
+            if not file.endswith('.mcmeta'):
+                os.remove(os.path.join(root, file))
+        for dir in dirs:
+            os.rmdir(os.path.join(root, dir))
+else:
+    os.makedirs(target_folder)
 
 # 遍历战利品表的根目录
 for root, subdirs, files in os.walk(source_folder):

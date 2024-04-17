@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_concrete_powder"
+                    "name": "minecraft:stone_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_concrete_powder"
+    "random_sequence": "minecraft:blocks/stone_bricks"
 }

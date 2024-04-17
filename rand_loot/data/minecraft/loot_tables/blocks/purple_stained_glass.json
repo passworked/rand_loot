@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cherry_pressure_plate"
+                    "name": "minecraft:copper_block"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cherry_pressure_plate"
+    "random_sequence": "minecraft:blocks/copper_block"
 }

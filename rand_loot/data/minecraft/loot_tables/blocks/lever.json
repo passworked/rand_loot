@@ -3,19 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_hanging_sign"
+                    "name": "minecraft:wither_skeleton_skull"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_hanging_sign"
+    "random_sequence": "minecraft:blocks/wither_skeleton_skull"
 }

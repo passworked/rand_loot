@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_button"
+                    "name": "minecraft:mossy_stone_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_button"
+    "random_sequence": "minecraft:blocks/mossy_stone_brick_wall"
 }

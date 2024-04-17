@@ -3,19 +3,32 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:rooted_dirt"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "SkullOwner",
+                                    "target": "SkullOwner"
+                                },
+                                {
+                                    "op": "replace",
+                                    "source": "note_block_sound",
+                                    "target": "BlockEntityTag.note_block_sound"
+                                }
+                            ],
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:player_head"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/rooted_dirt"
+    "random_sequence": "minecraft:blocks/player_head"
 }

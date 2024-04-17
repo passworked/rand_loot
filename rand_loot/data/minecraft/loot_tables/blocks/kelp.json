@@ -5,17 +5,29 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": [
+                            "minecraft:shears"
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:calcite"
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 2.0,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "minecraft:seagrass"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/calcite"
+    "random_sequence": "minecraft:blocks/tall_seagrass"
 }

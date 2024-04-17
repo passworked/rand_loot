@@ -11,11 +11,28 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:moss_block"
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_name",
+                            "source": "block_entity"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "ops": [
+                                {
+                                    "op": "replace",
+                                    "source": "Patterns",
+                                    "target": "BlockEntityTag.Patterns"
+                                }
+                            ],
+                            "source": "block_entity"
+                        }
+                    ],
+                    "name": "minecraft:yellow_banner"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/moss_block"
+    "random_sequence": "minecraft:blocks/yellow_banner"
 }

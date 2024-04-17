@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:blackstone_stairs"
+                    "name": "minecraft:magenta_wool"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blackstone_stairs"
+    "random_sequence": "minecraft:blocks/magenta_wool"
 }

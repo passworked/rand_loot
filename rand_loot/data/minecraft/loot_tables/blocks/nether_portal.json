@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_bricks"
+                    "name": "minecraft:oak_hanging_sign"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_bricks"
+    "random_sequence": "minecraft:blocks/oak_hanging_sign"
 }

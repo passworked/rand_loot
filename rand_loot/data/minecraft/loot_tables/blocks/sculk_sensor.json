@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_concrete"
+                    "conditions": [
+                        {
+                            "block": "minecraft:peony",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:peony"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_concrete"
+    "random_sequence": "minecraft:blocks/peony"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dark_oak_trapdoor"
+                    "name": "minecraft:redstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dark_oak_trapdoor"
+    "random_sequence": "minecraft:blocks/redstone_wire"
 }

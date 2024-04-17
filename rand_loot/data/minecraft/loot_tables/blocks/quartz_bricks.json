@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_blackstone_stairs"
+                    "name": "minecraft:jack_o_lantern"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_blackstone_stairs"
+    "random_sequence": "minecraft:blocks/jack_o_lantern"
 }

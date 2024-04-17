@@ -15,13 +15,21 @@
                                 "min": 0.0
                             },
                             "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:looting_enchant"
                         }
                     ],
-                    "name": "minecraft:string"
+                    "name": "minecraft:leather"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:entities/cat"
+    "random_sequence": "minecraft:entities/mule"
 }

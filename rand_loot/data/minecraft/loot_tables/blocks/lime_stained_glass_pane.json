@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_sand"
+                    "name": "minecraft:bamboo_fence_gate"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_sand"
+    "random_sequence": "minecraft:blocks/bamboo_fence_gate"
 }

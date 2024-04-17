@@ -21,11 +21,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dead_fire_coral_fan"
+                    "name": "minecraft:black_stained_glass_pane"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dead_fire_coral_fan"
+    "random_sequence": "minecraft:blocks/black_stained_glass_pane"
 }

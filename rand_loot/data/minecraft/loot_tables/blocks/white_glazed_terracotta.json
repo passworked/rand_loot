@@ -11,11 +11,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_basalt"
+                    "conditions": [
+                        {
+                            "block": "minecraft:mangrove_door",
+                            "condition": "minecraft:block_state_property",
+                            "properties": {
+                                "half": "lower"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:mangrove_door"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_basalt"
+    "random_sequence": "minecraft:blocks/mangrove_door"
 }

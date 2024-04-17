@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_brick_stairs"
+                    "name": "minecraft:mud_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_brick_stairs"
+    "random_sequence": "minecraft:blocks/mud_bricks"
 }

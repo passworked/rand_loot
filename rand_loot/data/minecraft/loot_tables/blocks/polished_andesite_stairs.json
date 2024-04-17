@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:piston"
+                    "name": "minecraft:smooth_sandstone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/piston"
+    "random_sequence": "minecraft:blocks/smooth_sandstone"
 }

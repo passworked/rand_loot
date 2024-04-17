@@ -3,19 +3,14 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
-                }
-            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mangrove_log"
+                    "name": "minecraft:light_blue_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mangrove_log"
+    "random_sequence": "minecraft:blocks/light_blue_candle_cake"
 }

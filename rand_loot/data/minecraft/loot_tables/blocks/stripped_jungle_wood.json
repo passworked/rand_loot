@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:honeycomb_block"
+                    "name": "minecraft:stripped_dark_oak_wood"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/honeycomb_block"
+    "random_sequence": "minecraft:blocks/stripped_dark_oak_wood"
 }

@@ -7,13 +7,8 @@
                 {
                     "condition": "minecraft:match_tool",
                     "predicate": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
-                            }
+                        "items": [
+                            "minecraft:shears"
                         ]
                     }
                 }
@@ -21,11 +16,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dead_brain_coral_fan"
+                    "name": "minecraft:hanging_roots"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dead_brain_coral_fan"
+    "random_sequence": "minecraft:blocks/hanging_roots"
 }

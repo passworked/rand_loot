@@ -5,23 +5,22 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": [
+                            "minecraft:shears"
+                        ]
+                    }
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:barrel"
+                    "name": "minecraft:seagrass"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/barrel"
+    "random_sequence": "minecraft:blocks/seagrass"
 }

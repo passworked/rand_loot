@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:polished_deepslate_stairs"
+                    "name": "minecraft:powered_rail"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/polished_deepslate_stairs"
+    "random_sequence": "minecraft:blocks/powered_rail"
 }

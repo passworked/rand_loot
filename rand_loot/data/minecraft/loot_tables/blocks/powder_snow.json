@@ -5,21 +5,17 @@
             "bonus_rolls": 0.0,
             "conditions": [
                 {
-                    "block": "minecraft:cave_vines_plant",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                        "berries": "true"
-                    }
+                    "condition": "minecraft:survives_explosion"
                 }
             ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:glow_berries"
+                    "name": "minecraft:polished_granite_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/cave_vines_plant"
+    "random_sequence": "minecraft:blocks/polished_granite_stairs"
 }

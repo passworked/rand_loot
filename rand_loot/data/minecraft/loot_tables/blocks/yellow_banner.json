@@ -3,14 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_candle"
+                    "name": "minecraft:mangrove_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_candle_cake"
+    "random_sequence": "minecraft:blocks/mangrove_trapdoor"
 }

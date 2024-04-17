@@ -11,17 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "minecraft:blast_furnace"
+                    "name": "minecraft:allium"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/blast_furnace"
+    "random_sequence": "minecraft:blocks/allium"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:respawn_anchor"
+                    "name": "minecraft:crimson_planks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/respawn_anchor"
+    "random_sequence": "minecraft:blocks/crimson_planks"
 }

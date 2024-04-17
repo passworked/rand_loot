@@ -11,7 +11,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:purple_candle",
+                                    "block": "minecraft:yellow_candle",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "candles": "2"
@@ -25,7 +25,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:purple_candle",
+                                    "block": "minecraft:yellow_candle",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "candles": "3"
@@ -39,7 +39,7 @@
                             "add": false,
                             "conditions": [
                                 {
-                                    "block": "minecraft:purple_candle",
+                                    "block": "minecraft:yellow_candle",
                                     "condition": "minecraft:block_state_property",
                                     "properties": {
                                         "candles": "4"
@@ -53,11 +53,11 @@
                             "function": "minecraft:explosion_decay"
                         }
                     ],
-                    "name": "minecraft:purple_candle"
+                    "name": "minecraft:yellow_candle"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/purple_candle"
+    "random_sequence": "minecraft:blocks/yellow_candle"
 }

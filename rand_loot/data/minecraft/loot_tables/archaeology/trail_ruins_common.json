@@ -6,39 +6,52 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:archer_pottery_sherd"
+                    "name": "minecraft:blade_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:miner_pottery_sherd"
+                    "name": "minecraft:explorer_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:prize_pottery_sherd"
+                    "name": "minecraft:mourner_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:skull_pottery_sherd"
+                    "name": "minecraft:plenty_pottery_sherd"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond"
+                    "name": "minecraft:iron_axe"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:tnt"
+                    "name": "minecraft:emerald",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gunpowder"
+                    "name": "minecraft:wheat",
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:emerald"
+                    "name": "minecraft:wooden_hoe",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:coal",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_nugget",
+                    "weight": 2
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:archaeology/desert_pyramid"
+    "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
 }

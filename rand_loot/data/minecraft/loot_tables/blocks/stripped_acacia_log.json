@@ -11,20 +11,26 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "conditions": [
-                        {
-                            "block": "minecraft:iron_door",
-                            "condition": "minecraft:block_state_property",
-                            "properties": {
-                                "half": "lower"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:iron_door"
+                    "name": "minecraft:flower_pot"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_oak_sapling"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/iron_door"
+    "random_sequence": "minecraft:blocks/potted_dark_oak_sapling"
 }

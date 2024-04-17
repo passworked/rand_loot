@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:yellow_wool"
+                    "name": "minecraft:iron_trapdoor"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/yellow_wool"
+    "random_sequence": "minecraft:blocks/iron_trapdoor"
 }

@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_carpet"
+                    "name": "minecraft:cobblestone"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_carpet"
+    "random_sequence": "minecraft:blocks/cobblestone"
 }

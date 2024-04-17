@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:red_nether_bricks"
+                    "name": "minecraft:polished_blackstone_brick_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_nether_bricks"
+    "random_sequence": "minecraft:blocks/polished_blackstone_brick_stairs"
 }

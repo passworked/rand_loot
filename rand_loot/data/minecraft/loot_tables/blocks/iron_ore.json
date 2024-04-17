@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:lily_pad"
+                    "name": "minecraft:cracked_stone_bricks"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/lily_pad"
+    "random_sequence": "minecraft:blocks/cracked_stone_bricks"
 }

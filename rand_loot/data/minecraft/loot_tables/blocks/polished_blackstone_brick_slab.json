@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:granite_stairs"
+                    "name": "minecraft:oak_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/granite_stairs"
+    "random_sequence": "minecraft:blocks/oak_log"
 }

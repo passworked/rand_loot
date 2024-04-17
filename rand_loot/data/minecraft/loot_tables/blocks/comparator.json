@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:mossy_stone_bricks"
+                    "name": "minecraft:granite"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/mossy_stone_bricks"
+    "random_sequence": "minecraft:blocks/granite"
 }

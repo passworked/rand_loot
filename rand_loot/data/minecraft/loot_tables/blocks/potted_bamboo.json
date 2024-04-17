@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:dried_kelp_block"
+                    "name": "minecraft:cherry_fence"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/dried_kelp_block"
+    "random_sequence": "minecraft:blocks/cherry_fence"
 }

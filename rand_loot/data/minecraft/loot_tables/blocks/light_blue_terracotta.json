@@ -1,10 +1,5 @@
 {
     "type": "minecraft:block",
-    "functions": [
-        {
-            "function": "minecraft:explosion_decay"
-        }
-    ],
     "pools": [
         {
             "bonus_rolls": 0.0,
@@ -16,136 +11,34 @@
                             "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "age": "0"
-                                    }
-                                },
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "half": "lower"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ],
-                            "functions": [
-                                {
-                                    "add": false,
-                                    "count": 1.0,
-                                    "function": "minecraft:set_count"
-                                }
-                            ],
-                            "name": "minecraft:pitcher_pod"
+                            "name": "minecraft:deepslate_gold_ore"
                         },
                         {
                             "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "age": "1"
-                                    }
-                                },
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "half": "lower"
-                                    }
-                                }
-                            ],
                             "functions": [
                                 {
-                                    "add": false,
-                                    "count": 1.0,
-                                    "function": "minecraft:set_count"
-                                }
-                            ],
-                            "name": "minecraft:pitcher_pod"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "age": "2"
-                                    }
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:ore_drops",
+                                    "function": "minecraft:apply_bonus"
                                 },
                                 {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "half": "lower"
-                                    }
+                                    "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "functions": [
-                                {
-                                    "add": false,
-                                    "count": 1.0,
-                                    "function": "minecraft:set_count"
-                                }
-                            ],
-                            "name": "minecraft:pitcher_pod"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "age": "3"
-                                    }
-                                },
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "half": "lower"
-                                    }
-                                }
-                            ],
-                            "functions": [
-                                {
-                                    "add": false,
-                                    "count": 1.0,
-                                    "function": "minecraft:set_count"
-                                }
-                            ],
-                            "name": "minecraft:pitcher_pod"
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "conditions": [
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "age": "4"
-                                    }
-                                },
-                                {
-                                    "block": "minecraft:pitcher_crop",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "half": "lower"
-                                    }
-                                }
-                            ],
-                            "functions": [
-                                {
-                                    "add": false,
-                                    "count": 1.0,
-                                    "function": "minecraft:set_count"
-                                }
-                            ],
-                            "name": "minecraft:pitcher_plant"
+                            "name": "minecraft:raw_gold"
                         }
                     ]
                 }
@@ -153,5 +46,5 @@
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/pitcher_crop"
+    "random_sequence": "minecraft:blocks/deepslate_gold_ore"
 }

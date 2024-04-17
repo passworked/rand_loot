@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:brown_concrete"
+                    "name": "minecraft:acacia_stairs"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/brown_concrete"
+    "random_sequence": "minecraft:blocks/acacia_stairs"
 }

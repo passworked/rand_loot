@@ -21,11 +21,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cracked_stone_bricks"
+                    "name": "minecraft:sculk_catalyst"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/infested_cracked_stone_bricks"
+    "random_sequence": "minecraft:blocks/sculk_catalyst"
 }

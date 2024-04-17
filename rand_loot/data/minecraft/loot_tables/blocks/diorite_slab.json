@@ -5,59 +5,48 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "functions": [
+                    "type": "minecraft:alternatives",
+                    "children": [
                         {
-                            "add": false,
+                            "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "block": "minecraft:red_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "2"
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
                                     }
                                 }
                             ],
-                            "count": 2.0,
-                            "function": "minecraft:set_count"
+                            "name": "minecraft:campfire"
                         },
                         {
-                            "add": false,
+                            "type": "minecraft:item",
                             "conditions": [
                                 {
-                                    "block": "minecraft:red_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "3"
-                                    }
+                                    "condition": "minecraft:survives_explosion"
                                 }
                             ],
-                            "count": 3.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "add": false,
-                            "conditions": [
+                            "functions": [
                                 {
-                                    "block": "minecraft:red_candle",
-                                    "condition": "minecraft:block_state_property",
-                                    "properties": {
-                                        "candles": "4"
-                                    }
+                                    "add": false,
+                                    "count": 2.0,
+                                    "function": "minecraft:set_count"
                                 }
                             ],
-                            "count": 4.0,
-                            "function": "minecraft:set_count"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
+                            "name": "minecraft:charcoal"
                         }
-                    ],
-                    "name": "minecraft:red_candle"
+                    ]
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/red_candle"
+    "random_sequence": "minecraft:blocks/campfire"
 }

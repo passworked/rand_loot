@@ -3,14 +3,19 @@
     "pools": [
         {
             "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wither_skeleton_skull"
+                    "name": "minecraft:polished_deepslate_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/wither_skeleton_skull"
+    "random_sequence": "minecraft:blocks/polished_deepslate_wall"
 }

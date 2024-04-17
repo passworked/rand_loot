@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:nether_brick_wall"
+                    "name": "minecraft:stripped_birch_log"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/nether_brick_wall"
+    "random_sequence": "minecraft:blocks/stripped_birch_log"
 }

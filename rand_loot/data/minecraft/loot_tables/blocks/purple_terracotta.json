@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:warped_stem"
+                    "name": "minecraft:nether_brick_wall"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/warped_stem"
+    "random_sequence": "minecraft:blocks/nether_brick_wall"
 }

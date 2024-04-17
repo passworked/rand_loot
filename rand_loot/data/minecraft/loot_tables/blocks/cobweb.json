@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:smooth_sandstone"
+                    "name": "minecraft:crimson_stem"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/smooth_sandstone"
+    "random_sequence": "minecraft:blocks/crimson_stem"
 }

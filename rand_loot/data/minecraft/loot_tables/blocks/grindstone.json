@@ -11,11 +11,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:black_wool"
+                    "name": "minecraft:red_mushroom"
                 }
             ],
             "rolls": 1.0
         }
     ],
-    "random_sequence": "minecraft:blocks/black_wool"
+    "random_sequence": "minecraft:blocks/red_mushroom"
 }
