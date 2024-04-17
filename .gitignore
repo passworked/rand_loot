@@ -1,1 +1,8 @@
 *.json
+build/
+dist/
+rand.spec
+randlite.spec
+*.zip
+*.gitignore
+*.exe

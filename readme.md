@@ -20,7 +20,7 @@
      ```
 
 3. **安装数据包**：
-   将生成的`rand_loot`文件夹整个拖拽进`./save/你的存档/data/datapacks/`目录下。
+   将生成的`rand_loot`文件夹整个拖拽进`./save/你的存档/datapacks/`目录下。
 
 4. **激活数据包**：
    如果随机掉落没有生效，请在服务端或是客户端管理员键入`/reload`来重新载入数据包。
@@ -34,4 +34,4 @@
 ## Todo List
 
 - [ ] 适配更多Minecraft版本，更新`pack.mcmeta`文件以支持至最新的游戏版本。
-- [ ] 打包python文件。
+- [X] 打包python文件。
