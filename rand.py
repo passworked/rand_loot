@@ -11,7 +11,7 @@ target_folder = r'./rand_loot/data/minecraft/loot_tables'
 if os.path.exists(target_folder):
     for root, dirs, files in os.walk(target_folder, topdown=False):
         for file in files:
-            if not file.endswith('.mcmeta'):
+            if file.endswith('.json'):
                 os.remove(os.path.join(root, file))
         for dir in dirs:
             os.rmdir(os.path.join(root, dir))
